@@ -1,0 +1,21 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "3.0.0rc4",
+    "jade": "*",
+    "nodemon": "*"
+  },
+  "jam": {
+    "packageDir": "public/lib",
+    "baseUrl": "public",
+    "dependencies": {
+      "backbone": "*",
+      "jquery": "*"
+    }
+  }
+}

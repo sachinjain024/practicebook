@@ -1,0 +1,667 @@
+1.DataTypes:
+String :
+scala> "Welcome to Skillspeed"
+output
+res1: String = Welcome to Skillspeed
+Int:
+scala> 10
+output
+res2: Int = 10
+Double
+scala> 3.5
+output
+res3: Double =3.5
+Concatenation of two strings
+scala> “skill”+”speed”
+output
+res4: String = skillspeed
+
+
+2 Variables Types
+scala> var myval = “Hello skillspeed”
+output
+myval: String = Hello skillspeed
+
+Reassigning variable
+scala>  myval = “WELCOME”
+output
+myval: String = WELCOME
+Assigning block Expression
+scala>  val add={val a=10; val b=20; a+b}
+output:
+Int =30
+3.Without Lazy Values
+scala> val file = scala.io.Source.fromFile("file.txt").mkString
+output
+java.io.FileNotFoundException: file.txt (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at scala.io.Source$.fromFile(Source.scala:91)
+	at scala.io.Source$.fromFile(Source.scala:76)
+	at scala.io.Source$.fromFile(Source.scala:54)
+	at .<init>(<console>:7)
+	at .<clinit>(<console>)
+	at .<init>(<console>:11)
+	at .<clinit>(<console>)
+	at $print(<console>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at scala.tools.nsc.interpreter.IMain$ReadEvalPrint.call(IMain.scala:704)
+	at scala.tools.nsc.interpreter.IMain$Request$$anonfun$14.apply(IMain.scala:920)
+	at scala.tools.nsc.interpreter.Line$$anonfun$1.apply$mcV$sp(Line.scala:43)
+	at scala.tools.nsc.io.package$$anon$2.run(package.scala:25)
+	at java.lang.Thread.run(Thread.java:745)
+4.With Lazy Values
+scala> lazy val file = scala.io.Source.fromFile("file.txt").mkString
+output
+file: String = <lazy>
+
+5.Control Structures
+If..else
+scala> val s= if(x>0) "Positive" else "Negative"
+output
+s: java.lang.String = Negative
+
+While loop
+scala> var x=10;
+x: Int = 10
+scala> while( x < 20 ){
+     | println("value of x :"+x);
+     | x=x+2;
+     | }
+output
+value of x :10
+value of x :12
+value of x :14
+value of x :16
+value of x :18
+
+do while loop
+scala> do{
+     | x = x+1;
+     | println("Value of x is "+x)
+     | }while(x<10)
+output
+Value of x is 1
+Value of x is 2
+Value of x is 3
+Value of x is 4
+Value of x is 5
+Value of x is 6
+Value of x is 7
+Value of x is 8
+Value of x is 9
+Value of x is 10
+
+for loop
+scala> var args="SKILLSPEED"
+args: java.lang.String = SKILLSPEED
+scala> args.foreach(arg =>println(arg))
+output
+S
+K
+I
+L
+L
+S
+P
+E
+E
+D
+For loop with yield
+scala> val x= for (i<- 1 to 10) yield i*5
+output
+x: scala.collection.immutable.IndexedSeq[Int] = Vector(5, 10, 15, 20, 25, 30, 35, 40, 45, 50)
+scala> for( i <- x) println(i)
+output
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+6.Functions
+scala> def myfun(Eno:Int,Ename:String)={
+     | println("Employee Number :"+Eno);
+     | println("Employee Name:"+Ename);
+     | }
+output
+myfun: (Eno: Int, Ename: String)Unit
+scala> myfun(7889,"Bill")
+output
+Employee Number :7889
+Employee Name:Bill
+Functions with Default Arguments
+scala> def myfun(Eno:Int,Ename:String,Cname:String="SkillSpeed")={
+     | println("Employee Number :"+Eno);
+     | println("Employee Name:"+Ename);
+     | println("Company Name:"+Cname);
+     | }
+myfun: (Eno: Int, Ename: String, Cname: String)Unit
+scala> myfun(3454,"JAck")
+output
+Employee Number :3454
+Employee Name:JAck
+Company Name:SkillSpeed
+
+Procedures
+scala> def Display(s : String){
+     | val border = "-" * s.length + "--\n"
+     | println(border + "|" + s + "|\n" + border)
+     | }
+Display: (s: String)Unit
+scala> Display("SKILLSPEED")
+Output
+------------
+|SKILLSPEED|
+------------
+7.Collections
+Array
+scala> val numbers = Array(1,2,3,4)
+output
+numbers: Array[Int] = Array(1, 2, 3, 4)
+
+scala> val courses = Array("Scala","Python","Java")
+output
+courses: Array[java.lang.String] = Array(Scala, Python, Java)
+
+scala> var myIntArray = new Array[Int](10)
+output
+myIntArray: Array[Int] = Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+Array Buffers
+scala> import scala.collection.mutable.ArrayBuffer
+import scala.collection.mutable.ArrayBuffer
+scala> var cars = new ArrayBuffer[String]()
+cars: scala.collection.mutable.ArrayBuffer[String] = ArrayBuffer()
+scala> cars += "BMW"
+output
+res0: scala.collection.mutable.ArrayBuffer[String] = ArrayBuffer(BMW)
+scala> cars += "Jaguar"
+output
+res1: scala.collection.mutable.ArrayBuffer[String] = ArrayBuffer(BMW, Jaguar)
+output
+scala> cars += "Jaguar"
+res2: scala.collection.mutable.ArrayBuffer[String] = ArrayBuffer(BMW, Jaguar, Jaguar)
+scala> println(cars.length)
+output
+3
+
+scala> cars.trimEnd(1)
+scala> cars
+output
+res5: scala.collection.mutable.ArrayBuffer[String] = ArrayBuffer(BMW, Jaguar)
+
+scala> cars.insert(2,"Bentley")
+scala> cars.insert(1, "Fiat","Volvo", "Reanult")
+scala> cars
+output
+res9: scala.collection.mutable.ArrayBuffer[String] = ArrayBuffer(BMW, Fiat, Volvo, Reanult, Jaguar, Bentley)
+
+scala> cars
+output
+res5: scala.collection.mutable.ArrayBuffer[String] = ArrayBuffer(Jaguar, Fiat, Volvo, Reanult, BMW)
+
+scala> cars.remove(3)
+output
+res6: String = Reanult
+
+
+8.Maps
+scala> var mapping = Map("NY" -> "New York", "NJ" -> "New Jersey")
+output
+mapping: scala.collection.immutable.Map[java.lang.String,java.lang.String] = Map(NY -> New York, NJ -> New Jersey)
+
+scala> var x = mapping("NY")
+output
+x: java.lang.String = New York
+
+scala> var xVal = mapping("New York")
+output
+java.util.NoSuchElementException: key not found: New York
+	at scala.collection.MapLike$class.default(MapLike.scala:225)
+	at scala.collection.immutable.Map$Map2.default(Map.scala:123)
+	at scala.collection.MapLike$class.apply(MapLike.scala:135)
+	at scala.collection.immutable.Map$Map2.apply(Map.scala:123)
+	at .<init>(<console>:9)
+	at .<clinit>(<console>)
+	at .<init>(<console>:11)
+	at .<clinit>(<console>)
+	at $print(<console>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at scala.tools.nsc.interpreter.IMain$ReadEvalPrint.call(IMain.scala:704)
+	at scala.tools.nsc.interpreter.IMain$Request$$anonfun$14.apply(IMain.scala:920)
+	at scala.tools.nsc.interpreter.Line$$anonfun$1.apply$mcV$sp(Line.scala:43)
+	at scala.tools.nsc.io.package$$anon$2.run(package.scala:25)
+	at java.lang.Thread.run(Thread.java:745)
+
+scala> mapping.getOrElse("NY", "???")
+output
+res7: java.lang.String = New York
+
+scala> val testVal = mapping.getOrElse("NY", 0)    
+output
+testVal: Any = New York
+
+Mutable Maps
+scala> var states = scala.collection.mutable.Map[String,String]()
+output
+states: scala.collection.mutable.Map[String,String] = Map()
+
+scala> var states = scala.collection.mutable.Map("NY" -> "New York","WY" -> "Wyomming")
+output
+states: scala.collection.mutable.Map[java.lang.String,java.lang.String] = Map(NY -> New York, WY -> Wyomming)
+
+scala> states += ("CA" -> "California","NJ" -> "New Jersey")
+output
+res0: scala.collection.mutable.Map[java.lang.String,java.lang.String] = Map(NY -> New York, WY -> Wyomming, CA -> California, NJ -> New Jersey)
+
+scala> states -= ("WY")
+output
+res1: scala.collection.mutable.Map[java.lang.String,java.lang.String] = Map(NY -> New York, CA -> California, NJ -> New Jersey)
+
+scala> states("NY") = "New York, The Big State"
+scala> states
+output
+res3: scala.collection.mutable.Map[java.lang.String,java.lang.String] = Map(NY -> New York, The Big State, CA -> California, NJ -> New Jersey)
+
+9.Tuples
+scala> var tupleEx = (101, "Robert" , 25000.00)
+output
+tupleEx: (Int, java.lang.String, Double) = (101,Robert,25000.0)
+
+scala> tupleEx._1
+output
+res4: Int = 101
+
+scala> tupleEx._2
+output
+res5: java.lang.String = Robert
+
+scala> "skiLlspEed".partition(_.isUpper)
+output
+res6: (String, String) = (LE,skilsped)
+
+
+scala> "skiLlspEed".partition(_.isLower)
+output
+res7: (String, String) = (skilsped,LE)
+Lists
+scala> var numList = List(1,2,3,4)
+output
+numList: List[Int] = List(1, 2, 3, 4)
+
+scala> val empList = List()
+output
+empList: List[Nothing] = List()
+
+scala> numList.head
+output
+res8: Int = 1
+
+scala>  numList.tail
+output
+res9: List[Int] = List(2, 3, 4)
+
+scala> 1 :: List(2,3)
+output
+res10: List[Int] = List(1, 2, 3)
+
+scala> val y = sum(numList)
+output
+y: Int = 10
+
+10.Pattern Matching
+scala> object MatchTest1 extends App{
+     | def matchTest(x:Int): String = x match {
+     | case 1 => "one"
+     | case 2 => "two"
+     | case _ => "many"
+     | }
+     | println(matchTest(3))
+     | }
+Output
+defined module MatchTest1
+
+scala> object MatchTest2 extends App{
+     | def matchTest(x:Any): Any = x match {
+     | case 1 => "one"
+     | case "two" => 2
+     | case y: Int => "scala.Int"
+     | }
+     | println(matchTest("two"))
+     | }
+output
+defined module MatchTest2
+
+11.Enumeration
+scala> object weekdays extends Enumeration{
+     | val Mon,Tue,Wed,Thu,Fri = Value
+     | }
+defined module weekdays
+scala> var Days=weekdays.Mon
+output
+Days: weekdays.Value = Mon
+
+scala> var Days=weekdays.Tue
+output
+Days: weekdays.Value = Tue
+
+
+scala> import weekdays._
+output
+import weekdays._
+
+scala> Days=Mon
+output
+Days: weekdays.Value = Mon
+
+scala> Days=Wed
+output
+Days: weekdays.Value = Wed
+
+12.Ternary Operators
+
+scala> val x=10
+x: Int = 10
+scala> val y=20
+y: Int = 20
+scala> if(i == 1) x else y
+output
+res17: Int = 10
+
+scala> val loggedIn =false
+loggedIn: Boolean = false
+scala> val message =if (loggedIn) "Welcome" else "Please log in first"
+output
+message: java.lang.String = Please log in first
+
+
+======================
+Spark Transformations:|
+======================
+map,flatMap,filter,distinct,sample,mapValues,flatMapValues
+reduceByKey,groupByKey,sortByKey
+
+Map Operation:
+---------------
+val inpPar = sc.parallelize(List("Hello", "World", "Welcome", "to", "scala"), 2)
+val lenRdd = inpPar.map(_.length)
+val zipRdd = inpPar.zip(lenRdd)
+zipRdd.collect
+
+inpPar.partitions.length
+
+
+flatMap Transformation:
+-----------------------
+val inp1 = sc.parallelize(1 to 10, 2)
+val mapRdd = inp1.flatMap(1 to _)
+mapRdd.collect
+
+
+filter Operation:
+-----------------
+val inp2 = sc.parallelize(1 to 10, 2)
+val filterRdd = inp2.filter(_ % 2 == 0)
+inp2.collect
+
+
+Distinct:
+----------
+val inpDistinct = sc.parallelize(List("Hello", "World", "Welcome", "to", "scala", "Hello","Hello","World", "Welcome", "to", "scala"), 2)
+inpDistinct.distinct.collect
+
+
+Sample:
+-------
+val sampleRdd = sc.parallelize(1 to 100, 3)
+sampleRdd.sample(false, 0.3, 0).count // Selects a fractions of them and the seed is set.
+
+
+mapValues:
+---------
+
+val a = sc.parallelize(List("Hello", "World", "Welcome", "to", "scala"), 2)
+val b = a.map(x1 => (x1.length, x1))
+b.mapValues("prefix - " + _ + " - suffix").collect
+
+
+flatMapValues: //collapses the inherent structure of the values during mapping
+--------------
+val a = sc.parallelize(List("Hello", "World", "Welcome", "to", "scala"), 2)
+val b = a.map(y => (y.length, y))
+b.flatMapValues("prefix - " + _ + " - suffix").collect
+
+
+reduceByKey:
+------------
+val a = sc.parallelize(List("Hello", "World", "Welcome", "to", "scala","Hello", "World"), 2)
+val b = a.map(x2 => (x2,x2.length))
+b.reduceByKey(_ + _).collect
+
+
+groupByKey:
+-----------
+val a = sc.parallelize(List("Hello", "World", "Welcome", "to", "scala","all","the","but","Hello", "World", "Welcome", "to", "scala"), 2)
+val b = a.keyBy(_.length)
+b.groupByKey.collect
+
+
+filterByRange:
+-------------
+val randRDD = sc.parallelize(List( (2,"all"), (6, "but"),(7, "between"), (3, "there"), (4, "here"), (1, "where"), (5, "everywhere")), 2)
+val sortedRDD = randRDD.sortByKey()
+sortedRDD.filterByRange(1, 3).collect
+
+
+===============
+Spark Actions:|
+===============
+takeOrdered,first,count,collect,collectAsMap,foreach,countByKey
+
+
+takeOrdered:
+------------
+
+val b = sc.parallelize(List("here", "all", "there", "but", "catch"), 2)
+b.takeOrdered(2)
+
+
+val b1 = sc.parallelize(List(5,6,8,22,31,1,3,4), 2)
+b1.takeOrdered(2)
+
+
+first:
+------
+val c = sc.parallelize(List("here", "all", "there", "but", "catch"), 2)
+c.first
+
+
+count:
+------
+val c1 = sc.parallelize(List("here", "all", "there", "but", "catch"), 2)
+c1.count
+
+
+collect:
+--------
+val a = sc.parallelize(List("Hello", "World", "Welcome", "to", "scala"), 2)
+val b = a.map(x2 => (x2,x2.length))
+b.reduceByKey(_ + _).collect
+
+
+collectAsMap:
+-------------
+val a = sc.parallelize(List(1, 2, 1, 3), 1)
+val b = a.zip(a)
+b.collectAsMap
+
+
+foreach:
+--------
+val c = sc.parallelize(List("Hello", "World", "Welcome", "to", "scala","all","the","but"))
+c.foreach(x => println(x))
+
+
+countByKey:
+----------
+val c = sc.parallelize(List((3, "all"), (3, "the"), (5, "Where"), (3, "Not")), 2)
+c.countByKey
+
+
+
+=========================================================
+Spark Pair Rdd Operations (Joins, Union and Intersection)
+=========================================================
+Join:
+------
+
+val x = sc.parallelize(List(("Hello", 1), ("World", 4),("Scala",3)))
+val y = sc.parallelize(List(("Hello", 2), ("Hello", 3),("World",2)))
+x.join(y).collect()
+
+
+val a = sc.parallelize(List("hello", "some", "some", "rat", "elephant"), 3)
+val b = a.keyBy(_.length)
+val c = sc.parallelize(List("hello","cat","gnu","some","rabbit","turkey","wolf","bear","bee"), 3)
+val d = c.keyBy(_.length)
+b.join(d).collect
+
+
+Left Outer Join:
+----------------
+
+val pairRDD1 = sc.parallelize(List( ("clear",21), ("spark", 15), ("realtime", 4),("poles", 12)))
+val b1 = pairRDD1.keyBy(_.length)
+val pairRDD2 = sc.parallelize(List( ("clear",21), ("scala", 15), ("batch", 4),("poles", 12)))
+val b2 = pairRDD2.keyBy(_.length)
+b1.leftOuterJoin(b2).collect
+
+
+val x = sc.parallelize(List(("a", 1), ("b", 4)))
+val y = sc.parallelize(List(("a", 2)))
+x.leftOuterJoin(y).collect()
+
+
+Right Outer Join:
+-----------------
+
+val pairRDD1 = sc.parallelize(List( ("clear",21), ("spark", 15), ("realtime", 4),("poles", 12)))
+val b1 = pairRDD1.keyBy(_.length)
+val pairRDD2 = sc.parallelize(List( ("clear",21), ("scala", 15), ("batch", 4),("poles", 12)))
+val b2 = pairRDD2.keyBy(_.length)
+b1.rightOuterJoin(b2).collect
+
+
+val x = sc.parallelize(List(("a", 1), ("b", 4)))
+val y = sc.parallelize(List(("a", 2)))
+x.rightOuterJoin(y).collect()
+
+Array[(String, (Int, Option[Int]))] = Array((a,(1,Some(2))), (b,(4,None)))
+Array[(String, (Option[Int], Int))] = Array((a,(Some(1),2)))
+
+Full Outer Join:
+----------------
+val pairRDD1 = sc.parallelize(List( ("clear",21), ("spark", 15), ("realtime", 4),("poles", 12)))
+val pairRDD2 = sc.parallelize(List( ("clear",21), ("scala", 15), ("batch", 4),("poles", 12)))
+pairRDD1.fullOuterJoin(pairRDD2).collect
+
+
+Intersection:
+-------------
+
+val x = sc.parallelize(1 to 20)
+val y = sc.parallelize(10 to 30)
+val z = x.intersection(y)
+
+Subtract:
+---------
+
+val a = sc.parallelize(1 to 9, 3)
+val b = sc.parallelize(1 to 3, 3)
+val c = a.subtract(b)
+
+SubtractByKey:
+----------------
+
+val a = sc.parallelize(List("dog", "tiger", "lion", "cat", "spider", "eagle"), 2)
+val b = a.keyBy(_.length)
+val c = sc.parallelize(List("ant", "falcon", "squid"), 2)
+val d = c.keyBy(_.length)
+b.subtractByKey(d).collect 
+
+loading a spark shell - ./bin/spark-shell
+scala>sc
+
+
+val keywords = Array("Scala","Spark", "Morning", "Skillspeed")
+val rdd1 = sc.parallelize(keywords)
+rdd1.collect.foreach(println)
+
+
+val numRdd = sc.parallelize(List(1,2,3,4,5))
+val filteredRdd = numRdd.filter(_ % 2 == 1)
+filteredRdd.collect.foreach(println)
+
+
+Reading data using parallelize:-
+-------------------------------
+val inputMap = sc.parallelize(List(1,2,3,4))
+val result = inputMap.map(x => x*x)
+
+
+scala>val input = sc.textFile("CHANGES.txt")
+
+scala> input.count()
+
+
+
+scala> input.first()
+
+
+scala> val linesWithSpark = input.filter(line => line.contains("Spark"))
+
+scala> linesWithSpark.count()
+
+
+PySpark Shell:
+--------------
+./bin/pyspark
+
+>>> sc
+
+>>>lines = sc.textFile("CHANGES.txt")
+
+>>>lines.count()
+
+>>>
+
+Reading Input file :
+--------------------
+scala>val inputLines = sc.textFile("/home/user/Documents/wordcount1.txt")
+
+scala> inputLines.count()
+
+
+scala> inputLines.first()
+
+
+scala>val words = inputLines.flatMap(line => line.split(" "))
+
+scala>val wMap = words.map(word => (word,1))
+
+scala> wMap.first
+
+
+scala>val wOutput  = wMap.reduceByKey(_ + _)
+
+scala> wOutput.first

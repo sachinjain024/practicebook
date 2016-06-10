@@ -1,0 +1,18 @@
+#main
+
+script(type="text/template", id="personView")
+  <h2> <%= person.name %> </h2>
+  <ul>
+  <li>Age: <%= person.age %></li>
+  <li>Twitter: <%= twitter(person.twitter) %></li>
+  </ul>
+
+script(type="text/template", id="peopleView")
+  <h1> People </h1>
+
+script(src="jquery.js");
+script(src="underscore-min.js");
+script(src="backbone-min.js");
+script(src="app.js");
+
+

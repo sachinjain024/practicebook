@@ -1,0 +1,20 @@
+h1 Advanced Backbone Patterns and Techniques
+
+#main
+
+script(type="text/template", id="showUserView")
+  <h1> <%= name %> </h1>
+  <p>Twitter: <a href="http://twitter.com/<%= twitter %>">@<%= twitter %></a></p>
+
+script(type="text/template", id="editUserView")
+  <h1> Editing </h1>
+
+    
+  <p>Name: <input type="text" name="name" id="name" value="<%= name %>" /></p>
+  <p>Twitter Handle: <input type="text" name="twitter" id="twitter" value="<%= twitter %>" /></p>
+  <p><button>Update</button></p>
+
+script(src='underscore-min.js')
+script(src='jquery.js')
+script(src='backbone-min.js')
+script(src='app.js')
