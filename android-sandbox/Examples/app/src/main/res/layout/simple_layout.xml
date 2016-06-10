@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="me.blunderboy.examples.SimpleActivity"
+    android:id="@+id/simple_activity_layout"
+    android:background="@drawable/texture_background">
+
+    <TextView android:text="@string/hello_user" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome_user_textview"
+        android:textColor="@color/red"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@android:drawable/presence_video_online"
+        style="@android:style/ButtonBar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="82dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Request"
+        android:id="@+id/textView_requestly_prefix"
+        android:textColor="@color/requestly_prefix_color"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/requestly_suffix_markyp"
+        android:id="@+id/textView_requestly_suffix"
+        android:layout_alignTop="@+id/textView_requestly_prefix"
+        android:layout_toEndOf="@+id/textView_requestly_prefix"
+        android:textColor="@color/requestly_suffix_color" />
+
+</RelativeLayout>

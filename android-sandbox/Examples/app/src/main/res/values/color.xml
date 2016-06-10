@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#ED482F</color>
+    <color name="green">#75ED2F</color>
+    <color name="requestly_prefix_color">#3b3b3b</color>
+    <color name="requestly_suffix_color">#0000aa</color>
+</resources>
