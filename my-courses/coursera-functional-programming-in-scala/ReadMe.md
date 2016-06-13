@@ -2,11 +2,15 @@ Coursera: Functional Programming in Scala
 -----------------------------------------
 
 ## Links
-- Setup environment: https://class.coursera.org/progfun-005/wiki/ToolsSetup
-- IntelliJ Setup: https://class.coursera.org/progfun-005/wiki/IntelliJ_IDEA
+- [Setup environment](https://class.coursera.org/progfun-005/wiki/ToolsSetup)
+- [IntelliJ Setup](https://www.coursera.org/learn/progfun1/supplement/VuJFf/intellij-idea-tutorial)
+- [Cheat Sheet](https://www.coursera.org/learn/progfun1/supplement/Sauv3/cheat-sheet)
+- [SBT](https://www.coursera.org/learn/progfun1/supplement/uV974/sbt-tutorial)
+- [Resources](https://www.coursera.org/learn/progfun1/supplement/D9pm0/learning-resources)
+- [Style Guide](https://www.coursera.org/learn/progfun1/supplement/KPiGt/scala-style-guide)
 
 ### 1.1 - Programming Paradigms
-------------------------------
+-------------------------------
 
 Main programming paradigms
 
