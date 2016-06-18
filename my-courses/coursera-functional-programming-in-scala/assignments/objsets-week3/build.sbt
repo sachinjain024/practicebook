@@ -1,97 +1,73 @@
-submitProjectName := "objsets"
+name := course.value + "-" + assignment.value
 
-scalaVersion := "2.11.5"
+scalaVersion := "2.11.7"
 
-scalacOptions ++= Seq(
-  "-deprecation",
-  "-unchecked",
-  "-optimise",
-  "-Yinline-warnings"
-)
+scalacOptions ++= Seq("-deprecation")
 
-fork := true
+// grading libraries
+libraryDependencies += "junit" % "junit" % "4.10" % "test"
 
-javaOptions += "-Xmx2G"
+// for funsets
+libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.4"
 
-parallelExecution in Test := false
+// include the common dir
+commonSourcePackages += "common"
 
+courseId := "bRPXgjY9EeW6RApRXdjJPw"
 
 // See documentation in ProgFunBuild.scala
-projectDetailsMap := {
-val currentCourseId = "progfun-005"
-val depsQuickcheck = Seq(
-    "org.scalacheck" %% "scalacheck" % "1.12.1"
+assignmentsMap := {
+  val styleSheetPath = (baseDirectory.value / ".." / ".." / "project" / "scalastyle_config.xml").getPath
+  Map(
+    "example" -> Assignment(
+      packageName = "example",
+      key = "g4unnjZBEeWj7SIAC5PFxA",
+      itemId = "xIz9O",
+      partId = "d5jxI",
+      maxScore = 10d,
+      styleScoreRatio = 0.2,
+      styleSheet = styleSheetPath),
+    "recfun" -> Assignment(
+      packageName = "recfun",
+      key = "SNYuDzZEEeWNVyIAC92BaQ",
+      itemId = "Ey6Jf",
+      partId = "PzVVY",
+      maxScore = 10d,
+      styleScoreRatio = 0.2,
+      styleSheet = styleSheetPath),
+    "funsets" -> Assignment(
+      packageName = "funsets",
+      key = "FNHHMDfsEeWAGiIAC46PTg",
+      itemId = "BVa6a",
+      partId = "IljBE",
+      maxScore = 10d,
+      styleScoreRatio = 0.2,
+      styleSheet = styleSheetPath),
+    "objsets" -> Assignment(
+      packageName = "objsets",
+      key = "6PTXvD99EeWAiCIAC7Pj9w",
+      itemId = "Ogg05",
+      partId = "7hlkb",
+      maxScore = 10d,
+      styleScoreRatio = 0.2,
+      styleSheet = styleSheetPath,
+      options = Map("grader-timeout" -> "1800")),
+    "patmat" -> Assignment(
+      packageName = "patmat",
+      key = "BwkTtD9_EeWFZSIACtiVgg",
+      itemId = "uctOq",
+      partId = "2KYZc",
+      maxScore = 10d,
+      styleScoreRatio = 0.2,
+      styleSheet = styleSheetPath),
+    "forcomp" -> Assignment(
+      packageName = "forcomp",
+      key = "CPJe397VEeWLGArWOseZkw",
+      itemId = "nVRPb",
+      partId = "v2XIe",
+      maxScore = 10d,
+      styleScoreRatio = 0.2,
+      styleSheet = styleSheetPath,
+      options = Map("grader-timeout" -> "1800"))
   )
-Map(
-  "example" ->  ProjectDetails(
-                  packageName = "example",
-                  assignmentPartId = "gTzFogNk",
-                  maxScore = 10d,
-                  styleScoreRatio = 0.2,
-                  styleSheet = (baseDirectory.value / "project" / "scalastyle_config.xml").toString,
-                  courseId=currentCourseId),
-  "recfun" ->     ProjectDetails(
-                  packageName = "recfun",
-                  assignmentPartId = "4Rarn9Ki",
-                  maxScore = 10d,
-                  styleScoreRatio = 0.2,
-                  styleSheet = (baseDirectory.value / "project" / "scalastyle_config.xml").toString,
-                  courseId=currentCourseId),
-  "funsets" ->    ProjectDetails(
-                  packageName = "funsets",
-                  assignmentPartId = "gBXOL7Rd",
-                  maxScore = 10d,
-                  styleScoreRatio = 0.2,
-                  styleSheet = (baseDirectory.value / "project" / "scalastyle_config.xml").toString,
-                  courseId=currentCourseId),
-  "objsets" ->    ProjectDetails(
-                  packageName = "objsets",
-                  assignmentPartId = "25dMMEz7",
-                  maxScore = 10d,
-                  styleScoreRatio = 0.2,
-                  styleSheet = (baseDirectory.value / "project" / "scalastyle_config.xml").toString,
-                  courseId=currentCourseId),
-  "patmat" ->     ProjectDetails(
-                  packageName = "patmat",
-                  assignmentPartId = "6gPmpcif",
-                  maxScore = 20d,
-                  styleScoreRatio = 0.2,
-                  styleSheet = (baseDirectory.value / "project" / "scalastyle_config.xml").toString,
-                  courseId=currentCourseId),
-  "forcomp" ->    ProjectDetails(
-                  packageName = "forcomp",
-                  assignmentPartId = "gG3oZGIO",
-                  maxScore = 10d,
-                  styleScoreRatio = 0.2,
-                  styleSheet = (baseDirectory.value / "project" / "scalastyle_config.xml").toString,
-                  courseId=currentCourseId),
-  "streams" ->    ProjectDetails(
-                  packageName = "streams",
-                  assignmentPartId = "1WKgCFCi",
-                  maxScore = 20d,
-                  styleScoreRatio = 0.2,
-                  styleSheet = (baseDirectory.value / "project" / "scalastyle_config.xml").toString,
-                  courseId=currentCourseId),
-  "quickcheck" -> ProjectDetails(
-                  packageName = "quickcheck",
-                  assignmentPartId = "02Vi5q7m",
-                  maxScore = 10d,
-                  styleScoreRatio = 0.0,
-                  styleSheet = (baseDirectory.value / "project" / "scalastyle_config.xml").toString,
-                  courseId=currentCourseId,
-                  dependencies=depsQuickcheck),
-  "constraints"  -> ProjectDetails(
-                  packageName = "constraints",
-                  assignmentPartId = "kL1K2FAj",
-                  maxScore = 10d,
-                  styleScoreRatio = 0.0,
-                  styleSheet = (baseDirectory.value / "project" / "scalastyle_config.xml").toString,
-                  courseId=currentCourseId),
-  "interpreter"  -> ProjectDetails(
-                  packageName = "interpreter",
-                  assignmentPartId = "1SZhe1Ua283r87a7rd",
-                  maxScore = 10d,
-                  styleScoreRatio = 0.0,
-                  styleSheet = (baseDirectory.value / "project" / "scalastyle_config.xml").toString,
-                  courseId=currentCourseId)
-)}
+}
