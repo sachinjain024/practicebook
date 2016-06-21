@@ -211,5 +211,97 @@ Dynamic Allocation: (spark.dynamicAllocation)
 
 Source Code: ExecutorAllocationManager.scala
 
-100 TB sort competition
+100 TB Sort Competition
 
+### Persistence and Caching 
+
+- RDD.cache = RDD.persist(MEMORY_ONLY)
+- When we persist an RDD we can either persist it on disk or in memory. A partition can not be stored partially in disk and partially in memory.
+- when we passs memory only flag and say  ehole partition vcan not be fit into memoty then the partiton is dropeed and it is either cmputed from undrlying sata scource or from some previos cahced ones in the DAG.
+- This is LRU cache so oldest RDD will be evacuated from memory when new ones arrive and cache is full
+- RDD.persist(MEMORY_ONLY_SER): It means it will store serialized RDD in memory which is space efficient. By default deserialized form of RDD is stored which takes more memory. It is important to choose fast serialization library. Java serialization is not too fast. 
+- Storing serialized (byte array) also helps in GC signifaicantly because many individual records are stored in single block of memory.
+- RDD.persist(MEMORY_AND_DISK): Deserialized in memory but serialized in disk
+- RDD.persist(MEMORY_AND_DISK_SER): Serialized on both
+- RDD.persist(DISK_ONLY)
+- MEMORY_ONLY_2: Store in memory on 2 JVMs. When RDDS are too costly to lose.
+- MEMORY_AND_DISK_2
+- OFF_HEAP: (Tachyon): Sorted seralied objects in Tachyon. RDDs live in Tachyon even if Executors JVM restart.
+- unpersist()
+- Intermediate data is automatically persisted during shuffle operations (LOCAL_DIRS)
+- 2
+
+#### Executor memory is divided into three parts
+- Cached RDDs
+- Shuffle Memory
+- User Program
+
+If we face Out of Memory exception then it is most likely out of 2,3. Try to switch between User program and shuffle memory and observe the results.
+
+### Serialization
+Ser. in spark is used in the following:
+1. Transferring data over network
+2. Spilling data to disk
+3. Caching to memory serialized
+4. Broadcasting variables.
+
+#### Library: Kryo (Faster than Java)
+- conf.set('spark.serializaer', 'org.apache.spark.serializer.KryoSerializer')
+- Recommended to be used in production
+- We may need to register our classes in advance if they are going to ue KRYO for serialization
+
+#### Garbage Collection
+- High Churn: The cost of Garbage collection id difrectly proprtional to the number of hava objects. So it really matters the data structures we choose. For example an aray of ints is better than a link list.
+
+- If we are using Spark Streaming, we should move to concurrent CMS GC
+- Default is parallel
+
+
+### Scheduling Process (Spark Jobs, Stages and Tasks)
+- youtube talk: Spark Internals
+
+- Construction of DAG from RDD Objects
+- DAG Scheudler takes the DAG and divides into multiple Stages
+- Each Stage (Or parallel stages) are given to Task Scheduler one by one
+- Task Scheduler will break the stage into multiple tasks
+- Task is given to executor
+- Task is solved by multiple threads running in parallel
+
+    DAG -> DAG Scheduler -> Task Scheduler -> Executor
+
+### Dependencies
+
+- Lineage dependencies can be Narrow dependency or wider dependency
+- In narrow dependency, each parent RDD can be referred by atmost one child RDD. It means a parent will generate atmost one child RDD. Two parent RDDs can be combined to form a child RDD but a parent RDD can not generate two child RDDs.
+- e.g. map, filter, union, join with inputs co-paritioned
+- In wide dependencies, each parent RDD can create multiple child RDDs.
+- e.g. groupByKey, join with inputs not co-partitioned
+- When shuffle is caused, it is case of wide dependencies
+
+### Stages
+- When we read a text file from Hadoop, we get Hadoop RDD for an instant but soon it is converted to MappedRDD by Spark
+- Use `toDebugString` to check lineage of RDD
+ 
+### Shuffles
+- numPartitions cause shuffle
+- groupByKey, join cause shuffle
+- We can pass preservesParitioning=true in map operation as 3rd argument so spark can trigger shuffle because it does not know what our lambda function is. If we are chaning keys, we might need repartition to have proper partitions acrss clusters.
+- Cloudera blog post - Tuning Spark Jobs
+
+### Accumulators and Broadcast variables
+- One way to avoid shuffles is to make use of broadcast variables
+- Send a large read-only lookup table to all the nodes
+- Acc - Count events that occur duing job execution. Helps in debugging
+- Mosharaf Chowdhury - Paper on broadcast
+- Old Technique: HTTP (Sequential transfer to each executor. Driver bottleneck)
+- New Technique: Bittorrent 
+- Driver can read accum value
+- Used to impl counters and sums efficiently in parallel
+- Accum example
+    val accum = sc.accumulator(0)
+    val inputRDD = sc.parallelize(List(1,2,3))
+    val m = inputRDD.map(l => { 
+      accum += 1
+      l*2 
+    })
+- Executors coordinate among themselves to collect/construct the file whose parts are sent by drivers. Bittorrent protocol
