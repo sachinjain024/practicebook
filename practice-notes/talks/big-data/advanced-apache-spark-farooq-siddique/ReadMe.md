@@ -305,3 +305,61 @@ Ser. in spark is used in the following:
       l*2 
     })
 - Executors coordinate among themselves to collect/construct the file whose parts are sent by drivers. Bittorrent protocol
+
+### 100 TB Daytona Sort competition
+- sortbenchmark.org
+- databricks blog spark sets a new record in large scale sorting
+- Univ Sandiego worked on Trident sorting - a specially designed engined for sorting only.
+- Sorting is really important for shuffling. It is really required in every aspect from SQL to Mllib.
+- Sorting is challening because for 100 TB Data we need 500 TB IO and network bandwidth.
+
+#### What made this possbile
+- Sort based shuffle: SPARK-2045 
+- Netty native network transport: SPARK-2468
+- External shuffle service: SPARK-3796
+- GC and cache improvements
+- EC2 ?
+- HDFS short circtuir local reads enabled ?
+- Speculative execution ?
+- hash and sort directory in spark source code
+
+#### External Shuffle Service
+- When a map operation is done by executor JVM, it spills data on LOCAL_DIRS. In standalone mode, Worker JVM provides that data to reducer working JVM. In Yarn Node manager does the same job. This is because to take off some load from executor JVM which is busy in sorting.
+- In Yarn mode we should turn ON external shuffle service with dynamic allocation because executor is taken away by Res Manager  
+when it is not active.
+- In standalone mode, it is good to have
+
+#### Serving Mapped Data
+- Old Technique: Disk -> Linux Buffer -> Exec JVM -> NIC Buffer -> Network
+- Technique called zero-copy
+- Disk -> NIC Buffer -> Network
+
+#### Old Hash based shuffle (<10K reducers)
+- TimSort
+- Suppose we have 4 Mappers and we want to map data which is goping to be consumed by 3 reduceers.
+- Each Mapper will generate 3 small files (A, B, C). Now all As are going to be fed to Reducer_A and similarly for other files.
+- Map operation is bound by IO and transfering data to reducer is bound by Network bandwidth.
+- Moreover, when mapper is simultaneously writing to multiple files that means multiple file handlers are open at the same moment. If we have 10K reducers that means 10K file handlers are open and Linux kernel does handle large amount of open handlers gracefully. In SSDs there are no disk seek cost but we have buffers for each file and buffer management for all these open file handlers become costly.
+
+#### Sort based shuffle (250K+ reducers)
+- In the same case, suppose N mappers have to spill data which is going to be consumed by 3 Reducers. Now, Instead of opening 3 file handlers, each data block is sorted and dumped into one file. Point is there is only one handler open at a time at each mapper JVM.
+- Now, each datablock is sorted and contains data which is going to be consumed by RedA, RedB and RedC. Each one of them will read from their specific offset in file.
+- There can be many reducers now because we have removed the constraint on the number of open handlers. 
+- Each mapper will read some bit of data block and sort it and use Merge sort to completely sort the data block and write into one big file. (Map side)
+- Reducers again use TimSort to sort multiple files and write down the reduced data to HDFS.
+- Reducer does not need to know from where in the file it has to start reading. It is the responsibioty of Worker or Node Manager to provie data to reducer.
+- Hash based sort might be better than sort based for smaller number of partitions. Because it does not need to do map sort internally.
+
+### Spark Streaming
+- Written on top of Spark Core
+- Breaks the input data (stream) and converts into micro batches every X seconds and give to Spark Core. Spark Core then use that data and process it and outputs some batches of data
+- nc -lk ? Command ?
+- Create an app to print the number of words
+- You can think Streaming is like a race between Creating RDDs from input data and processing RDDs. If you do not process RDDs (dstream - processing latency) before new set of RDDs comes up, we start lagging behind. 
+- There is long running thread on one of the executors (worker with driver) which listens for data on some port. It will receive the data and keep on collecting the data for batch interval B and after B is done, dstream is processed.
+- If Processing latency P > B, then we need to architect the solution. One important technique is to decrease B because we may be collecting lot amount of data in B which Spark is not able to process in P. On the same line we should not decrease B to very small number otherwise it will hit minimum time for P.
+- One receiver can be a bottleneck so we can setup multiple receivers. But this means double data and we need to perform Union. Two receivers can be setup to subsribe to two different topics.
+- Transformations of Dstreams (Refer slide)
+- Window Operations (E.g Do some analysis over data on previous 30 seconds and do this analysis every 10 seconds)
+- Window Length: 3 Time units, Sliding Interval: 2 TIme Units (Ref. S)
+- There exists common window operations and output operations on Dstreams
