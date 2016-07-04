@@ -2,6 +2,7 @@ package practice
 
 import org.apache.hadoop.hbase.client.ConnectionFactory
 import org.apache.hadoop.hbase.{HBaseConfiguration}
+import util.HBaseUtil
 
 object Main extends App {
   private val conf = HBaseConfiguration.create()

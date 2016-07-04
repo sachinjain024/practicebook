@@ -1,8 +1,8 @@
-package practice
+package util
 
-import org.apache.hadoop.hbase.{HBaseConfiguration, HColumnDescriptor, HTableDescriptor, TableName}
 import org.apache.hadoop.hbase.client.{ConnectionFactory, HTable, Put}
 import org.apache.hadoop.hbase.util.Bytes
+import org.apache.hadoop.hbase.{HBaseConfiguration, HColumnDescriptor, HTableDescriptor, TableName}
 import org.slf4j.{Logger, LoggerFactory}
 
 object HBaseUtil {
@@ -23,8 +23,8 @@ object HBaseUtil {
     val _tableName = TableName.valueOf(tableName)
     if (!isTableExist(_tableName)) {
       val tableDescriptor = new HTableDescriptor(_tableName)
-      columnList.foreach { x =>
-        tableDescriptor.addFamily(new HColumnDescriptor(x))
+      columnList.foreach {
+        x => tableDescriptor.addFamily(new HColumnDescriptor(x))
       }
       admin.createTable(tableDescriptor)
       println(tableName + " table created..!!")
