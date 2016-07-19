@@ -1,0 +1,39 @@
+{
+  "description": "Web Extensions Storage",
+  "manifest_version": 2,
+  "name": "storage-api",
+  "version": "1.0",
+  "icons": {
+    "48": "icons/person-48.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "user-agent-rewriter@mozilla.org",
+      "strict_min_version": "45.0.0"
+    }
+  },
+
+  "background": {
+    "scripts": [ "background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": [ "*://requestly.in/*" ],
+      "css": [ "main.css" ],
+      "js": [ "app.js" ]
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/person-32.png",
+    "default_title": "Choose a user agent"
+  },
+
+  "permissions": [
+   "storage",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
