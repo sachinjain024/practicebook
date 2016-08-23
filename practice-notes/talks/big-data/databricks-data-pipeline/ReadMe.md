@@ -1,9 +1,9 @@
 Databricks' Data Pipelines: Journey and Lessons Learned
 -------------------------------------------------------
 
-Link: https://databricks.com/blog/2016/08/16/databricks-data-pipeline-on-demand-webinar-faq.html
-Link: https://www.youtube.com/watch?v=RYlhAF-9yE4
-Author: Burak Yaviz
+- Link: https://databricks.com/blog/2016/08/16/databricks-data-pipeline-on-demand-webinar-faq.html
+- Link: https://www.youtube.com/watch?v=RYlhAF-9yE4
+- Author: Burak Yaviz
 
 ## Complexity
 - Fault tolerance
