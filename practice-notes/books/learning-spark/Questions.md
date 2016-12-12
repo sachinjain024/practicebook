@@ -1,3 +1,5 @@
+## Learning Spark Questions and Answers
+
 ### Could this be an alternative implementation of groupByKey using combineByKey ?
 
     data
@@ -10,15 +12,42 @@
     mergeCombiners
       Concatenate the Arrays for the same key
 
-Advantages
-- All keys reduced locally before transmission over network
-- One key will be transferred one time So number of network calls decrease
-- Amount of data transferred is less because same key is not transferred again and again
-- We can handle OOM if we can determine the number of keys after concatenation of Arrays won't fit into memory
+    Advantages
+    - All keys reduced locally before transmission over network
+    - One key will be transferred one time So number of network calls decrease
+    - Amount of data transferred is less because same key is not transferred again and again
+    - We can handle OOM if we can determine the number of keys after concatenation of Arrays won't fit into memory
 
-#### Answer
-
-    ???
+#### Answer ???
 
 ### How Spark ensures there is less data transfer in coalesce than repartitioning ?
+
+Suppose we want to reduce number of partitions from P to N. Spark picks P - N partitions and merge them with another P - N paritions.
+
+### groupByKey(K, V) returns RDD(K, Iterable(V)). Figure out Iterable class. 
+
+Iterable is an interface which has a contract to define an iterator to traverse the class which implements it.
+So, In this case Iterable(V) means it returns an implementation which knows how to traverse over V type values.
+
+### Difference between broadcast variables and variables shared in closure ?
+
+    Shared Variable in Closure
+
+    val x = 10
+    rdd.map(r => {
+      // Use x Here
+    })
+
+    When spark sends the closure definition to executors, it will also serialize x and sends x with the closure.
+
+    Broadcast variable
+
+    val x = 10
+    val bcX = sparkContext.broadcast(x)
+
+    rdd.map(r => {
+      // Use bcX.value here to get x
+    })
+
+In case of closure spark sends x to each task/parition while in broadcast spark broadcasts x and every executor will use it as readonly shared value. Hence, network bandwidth is saved.
 

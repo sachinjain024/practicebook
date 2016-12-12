@@ -47,6 +47,10 @@ object SparkWithHbase {
       admin.enableTable(Bytes.toBytes(tableName))
     }
 
+    val s = "sachin"
+    val y = s.getBytes("UTF-8")
+
+
     // put data into table
     val myTable = new HTable(conf, tableName)
     for (i <- 0 to 5) {
