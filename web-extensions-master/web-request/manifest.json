@@ -2,7 +2,7 @@
 
   "description": "Redirect yahoo to requestly.in and block facebook requests",
   "manifest_version": 2,
-  "name": "redirect-url",
+  "name": "WebRequestSandbox",
   "version": "1.0",
   "icons": {
     "48": "icons/person-48.png"
