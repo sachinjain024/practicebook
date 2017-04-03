@@ -14,3 +14,19 @@ BG.Methods.modifyUrl = function(details) {
 chrome.webRequest.onBeforeSendHeaders.addListener(
   BG.Methods.modifyUrl, { urls: ['<all_urls>'] }, ['blocking']
 );
+
+chrome.webRequest.onBeforeRequest.addListener(
+  function(details) {
+    if (details.url.indexOf('localhost') === -1) return;
+
+    console.table([{
+      type: details.type,
+      url: details.url,
+      parentFrameId: details.parentFrameId,
+      frameId: details.frameId
+    }]);
+  },
+  {
+    urls: ['<all_urls>']
+  }
+);
