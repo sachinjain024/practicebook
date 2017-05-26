@@ -5,7 +5,7 @@ Decisive - How to make better decisions
 
 ## Four villians of decisions making
 - Narrow Framing
-- ?
+- Confirmation Bias
 
 ## How to avoid these four villians of decision making
 - WRAP Process
@@ -45,10 +45,11 @@ Answer: Try to think to change the situation
 - Try to talk to your partner on ways to improve your relationship
 
 ## Reality Test your Assumptions (R)
-- Most acquisitions go bad due to CEO hubris (self confidence, giving importance to oneself)
+- Most acquisitions go bad due to CEO hubris (self confidence, giving importance to oneself) (Case of confirmation bias)
 - On an avg they pay 41% higher premium for acquisitions and research showed three factors which affect the price a CEO buys another company:
 	- Praise by media
 	- Past progress
 	- High salary
 - Antedote to hubris is showing disagreement in decision
 - Often many companies do not obtain any thridparty or independent viewpoint
+- Someone opened a new restaruant in your neighbourboog with your fav food and have few 4 star reviews and couple of 1 star ratings. Which one would you read. High chances are your would read 4 star ones because you want the restaurant to be great. Classical example of confirmation bias.
