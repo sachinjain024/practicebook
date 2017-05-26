@@ -11,7 +11,7 @@ case class Person(id1: Long, id2: Long)
 
 object ConnectedComponent {
   def main(args: Array[String]) = {
-    val file = "data/connected-component-data.txt"
+    val file = "data/connected-component-data2.txt"
     val sparkConf = new SparkConf().setAppName("Social Interaction Graph of User")
     val sc = new SparkContext(sparkConf)
 
@@ -25,7 +25,7 @@ object ConnectedComponent {
     // Generate VertexRDD
     val vertexRDD: RDD[(Long, Long)] = recordsRDD.flatMap((p: Person) => {
       Seq(
-        (p.id1, p.id1),
+        (p.id1, p.id1), // Set representative on each vertex as itself
         (p.id2, p.id2)
       )
     })
@@ -38,7 +38,7 @@ object ConnectedComponent {
     val graph = Graph(vertexRDD, edgeRDD)
     val cc = graph.connectedComponents()
 
-    cc.triplets.foreach(println)
+    cc.triplets.take(20).foreach(println)
   }
 
   def getRepresentative(currentRep: Long, proposedRep: Long): Long = Math.min(currentRep, proposedRep)
