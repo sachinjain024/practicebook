@@ -1,4 +1,5 @@
 import org.apache.spark.rdd.RDD
+import org.apache.spark.sql.Row
 import org.apache.spark.{SparkContext, SparkConf}
 import org.apache.spark.graphx._
 
@@ -11,7 +12,7 @@ case class Person(id1: Long, id2: Long)
 
 object ConnectedComponent {
   def main(args: Array[String]) = {
-    val file = "data/connected-component-data2.txt"
+    val file = "data/connected-component-data.txt"
     val sparkConf = new SparkConf().setAppName("Social Interaction Graph of User")
     val sc = new SparkContext(sparkConf)
 
@@ -39,6 +40,12 @@ object ConnectedComponent {
     val cc = graph.connectedComponents()
 
     cc.triplets.take(20).foreach(println)
+
+    val output = cc.triplets.flatMap(t => {
+      Seq(t.toTuple._1, t.toTuple._2)
+    })
+
+    output.take(20).foreach(println)
   }
 
   def getRepresentative(currentRep: Long, proposedRep: Long): Long = Math.min(currentRep, proposedRep)
