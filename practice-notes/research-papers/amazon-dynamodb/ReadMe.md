@@ -20,12 +20,12 @@
 - Dynamo is an eventually consistent store.
 - Traditional systems resolve conflicts at write time. If you are writing at old state, writes are rejected. If writes are not able to reach majority of nodes, they are rejected. But Amazon needs highly available store and always ready to be writable. User adds a product to shopping cart, this write must be made amidst any network failure. Dynamo resolves conflicts at readtime.
 
-## Interface
+## Architecture
+
+### Interface
 
     def get(key): (context, value)
     def put(key, context, value): Unit
-
-## Architecture
 
 ### Partitioning
 - DynamoDB uses consistent hashing which results in circular hash values. Next hash of highest value maps to smallest hash value. i.e. Mod function
@@ -47,7 +47,22 @@
 - N is configurable
 - Keys are replicated to N successive nodes but since we have virtual nodes we may have scenario when two or more virtual nodes belong to same physical node
 - Hence, replication is done with skipping nodes so that we have replicated keys to distinct physical nodes
-- List of nodes where a node replicates its keys is called Preference list
+- List of nodes where a node replicates its keys is called Preference list 
+
+### Object Versionsing
+- Dynamo is eventually consistent system
+- Writes happen asynchronously 
+- There is a vector clock for each version of the object
+- Vector clock is just a list of (node, counter) tuples
+- node, counter represents how many times this object is updated by this node
+- Same object can have parallel branches of versions and vector clock can help in resolving the conflicts
+- Ex if vector clock of one object has less than equal to counters of vector clock of second objects then we can discard first
+
+### Execution of get and put
+- Quorum like system R+W > N
+- min R reads to be successful to consider a read
+- min W writes to consider successful writes. Remaining N-W writes may or maynot happen immediately but will happen eventually
+- Coordinator generates vector clock for new object and replcaites to N-1 nodes
 
 ## Questions
 - How does Dynamo achieve consistency using object versioning ?
