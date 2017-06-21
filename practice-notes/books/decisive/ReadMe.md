@@ -53,3 +53,12 @@ Answer: Try to think to change the situation
 - Antedote to hubris is showing disagreement in decision
 - Often many companies do not obtain any thridparty or independent viewpoint
 - Someone opened a new restaruant in your neighbourboog with your fav food and have few 4 star reviews and couple of 1 star ratings. Which one would you read. High chances are your would read 4 star ones because you want the restaurant to be great. Classical example of confirmation bias.
+
+
+- We learn assessing the options to deal with confirmation bias
+- confirmation bias is hunting for information which confirms our hypothesis or biasness
+
+### Consider the opposite
+- Ask discomforing questions
+- e.g. What are the problems in this ?
+- e.g. How many lawyers have exited the firm in last 5 years ?
