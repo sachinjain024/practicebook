@@ -29,3 +29,4 @@ MS Build Tour
 
 ## Resources
 - http://bthack.azurewebsites.net/references/
+- http://bthack.azurewebsites.net/
