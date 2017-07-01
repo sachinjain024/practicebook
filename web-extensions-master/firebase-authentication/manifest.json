@@ -18,7 +18,7 @@
 
   "content_scripts": [
     {
-      "matches": [ "http://www.requestly.in/*" ],
+      "matches": [ "http://www.requestly.in/" ],
       "css": [ "main.css" ],
       "js": [ "firebase-4.1.2.js", "app.js" ]
     }
