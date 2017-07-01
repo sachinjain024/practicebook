@@ -14,6 +14,8 @@
     }
   },
 
+  "content_security_policy": "script-src 'self' https://cdn.firebase.com https://*.firebaseio.com; object-src 'self'",
+
   "content_scripts": [
     {
       "matches": [ "http://www.requestly.in/*" ],
