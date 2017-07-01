@@ -1,0 +1,31 @@
+{
+  "description": "Firebase authentication inside content scripts",
+  "manifest_version": 2,
+  "name": "firebase-authentication",
+  "version": "1.0",
+  "icons": {
+    "48": "google_firebase-512.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "firebase-authentication@sachinjain024.github.io/practicebook",
+      "strict_min_version": "45.0.0"
+    }
+  },
+
+  "content_security_policy": "script-src 'self' https://cdn.firebase.com https://*.firebaseio.com; object-src 'self'",
+
+  "content_scripts": [
+    {
+      "matches": [ "http://www.requestly.in/*" ],
+      "css": [ "main.css" ],
+      "js": [ "firebase-4.1.2.js", "app.js" ]
+    }
+  ],
+
+  "permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
