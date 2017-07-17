@@ -1,0 +1,14 @@
+#loginElement {
+  background: deeppink;
+  color: white;
+}
+
+#logoutElement {
+  background: grey;
+  color: white;
+}
+
+#loginStatusElement {
+  background: forestgreen;
+  color: white;
+}
