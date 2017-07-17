@@ -10,3 +10,15 @@
 
 ### Test
 - Inject a page script running on localhost on some page. Now, try to communicate between both the scripts.
+- Sample exercise is login logout actions using communication and passing the result back to content script
+
+### Setup
+- git clone https://github.com/sachinjain024/practicebook.git
+- cd practicebook/web-extensions-master
+- npm install
+- grunt serve
+- Open chrome://extensions
+- Load unpacked extension
+- Select `scripts-communication` directory
+- Open http://www.requestly.in in new tab
+- Click on login, loginStatus and logout buttons
