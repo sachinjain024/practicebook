@@ -11,9 +11,9 @@ object CountValues {
     val sparkConf = new SparkConf().setAppName("Count Values Application")
     val sc = new SparkContext(sparkConf)
 
-    // val file = "simplefile.txt"
+    val file = "data/simplefile.txt"
     // val file = "/home/sachin/work/data/alias/dpid_411/sample.txt"
-    val file = "/home/sachin/work/data/alias/dpid_411/41199"
+    // val file = "/home/sachin/work/data/alias/dpid_411/41199"
     val fileData = sc.textFile(file)
 
     val pairs = fileData.map(x => (x.split("\t")(0), x.split("\t")(1)))
