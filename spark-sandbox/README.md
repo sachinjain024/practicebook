@@ -14,6 +14,9 @@ Sandbox for playing with Spark and Scala
     
     $SPARK_HOME/bin/spark-submit --class="StructuredNetworkWordCount" --master local[4] target/uber-spark-sandbox.jar
     nc -lk 9999 // Commandline
+    
+    $SPARK_HOME/bin/spark-submit --class="StreamingGraph" --master local[4] target/uber-spark-sandbox.jar
+    nc -lk 9999 // Commandline
 
 ## References
 - http://spark.apache.org/docs/latest/quick-start.html

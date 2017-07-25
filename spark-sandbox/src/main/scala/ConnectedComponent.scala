@@ -1,6 +1,6 @@
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.Row
-import org.apache.spark.{SparkContext, SparkConf}
+import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.graphx._
 
 /**
@@ -8,7 +8,9 @@ import org.apache.spark.graphx._
   * @param id1 Id1
   * @param id2 Id2
   */
-case class Person(id1: Long, id2: Long)
+case class Person(id1: Long, id2: Long) {
+  override def equals(that: Any): Boolean = ???
+}
 
 object ConnectedComponent {
   def main(args: Array[String]) = {
