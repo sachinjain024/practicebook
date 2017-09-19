@@ -1,0 +1,11 @@
+T__0=1
+LBRACKET=2
+RBRACKET=3
+PERIOD=4
+FIELDNAME=5
+INDEX=6
+WS=7
+'\n'=1
+'['=2
+']'=3
+'.'=4
