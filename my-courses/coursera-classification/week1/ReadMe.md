@@ -93,4 +93,10 @@ Implement a linear classifier end to end which takes review as input and tells i
 - Output = Max(Pred(y=red|x), Pgreen(y=green|x), Pblue(y=blue|x))
 - According to maximum probability obtain, you can determine which decision boundary worked best
 
+## Questions
+- Can we use logistic regression to classify multiple labels (except 1 vs all technique) ?
+- Can we use different link function and still call it as logistic regression ?
+- When we say regression, do we mean a function and minimize the rms (root mean square) error.
+- Now, regression can be modelled as predictor as well as classifier ?
+- How does decision boundary look in multi-class classifiers ?
 
