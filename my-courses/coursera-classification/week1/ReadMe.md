@@ -74,8 +74,9 @@ Implement a linear classifier end to end which takes review as input and tells i
 #### One Hot encoding
 - We use categorical encoding to convert these inputs into vectors. For example:
 
-    Encode(Male_Person) = [1, 0]
-    Encode(Female_Person) = [0, 1]
+    Heading                 = [M  F] 
+    Encode(Male_Person)     = [1, 0]
+    Encode(Female_Person)   = [0, 1]
 
 - This is called 1-Hot encoding where we take a vector of size equal to all possible value of the feature and all other values are 0 except 1.
 
@@ -96,7 +97,3 @@ Implement a linear classifier end to end which takes review as input and tells i
 ## Questions
 - Can we use logistic regression to classify multiple labels (except 1 vs all technique) ?
 - Can we use different link function and still call it as logistic regression ?
-- When we say regression, do we mean a function and minimize the rms (root mean square) error.
-- Now, regression can be modelled as predictor as well as classifier ?
-- How does decision boundary look in multi-class classifiers ?
-
