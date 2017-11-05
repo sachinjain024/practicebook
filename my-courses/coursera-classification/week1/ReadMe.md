@@ -95,5 +95,4 @@ Implement a linear classifier end to end which takes review as input and tells i
 - According to maximum probability obtain, you can determine which decision boundary worked best
 
 ## Questions
-- Can we use logistic regression to classify multiple labels (except 1 vs all technique) ?
-- Can we use different link function and still call it as logistic regression ?
+- Are the positive words in the simple_model also positive words in the sentiment_model? (Assignment - Question 8)
