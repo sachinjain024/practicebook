@@ -1,0 +1,20 @@
+# Productionalising Spark ML pipelines
+
+- MLlib was the ML version in spark < 1.6 and after >= 1.6 we have Spark ML which is based on dataFrame
+- ML Lib was based on RDDs
+- Spark does not handle null values or rather missing values gracefully so we have to handle them explicitly
+- Best practice is to create a stage in your ml pipeline rather than creating another spark job for handing null or missing values
+- Depending upon the use case you can assign either 0, null, mean or NA or some other custom string in your data
+- You need to understand data and your requirements in order to decide which value should be populated
+- 4 phases: (Transformers, Evaluators)
+- String encoder - Gives index after sorting to categorical inputs
+- For example - Country columns needs to be converted into integer/numeric values for running ML algo on this column.
+- String encoder - Sort the column and replace each column value with its index in the sort order.
+- Actually a new column is added
+- 1 Hot encoding - Adds a column for categorical input with a vector of integers. (Sparse row. Index will be one for the corresponsing string value/column value)
+- Vector assember - Adds a new column with vector of all the rows specified in assembler
+
+## TODO
+- Understand better RDD, DataFrame and Dataset
+- What is better and in which scenario ?
+- Cost involved in converting one into another
