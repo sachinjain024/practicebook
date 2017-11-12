@@ -1,0 +1,9 @@
+1. Add these lines in /etc/fstab file
+2. First of all, find the name of your windows drives using df -h.
+3. Add them in /etc/fstab file in the under given format.
+
+Drive_Name_in_linux Drive_name_with_which_you_want_to_mount ntfs defaults 0 0
+
+/dev/sda1 /media/c_drive ntfs defaults 0 0
+/dev/sda5 /media/d_drive ntfs defaults 0 0
+/dev/sda6 /media/e_drive ntfs defaults 0 0

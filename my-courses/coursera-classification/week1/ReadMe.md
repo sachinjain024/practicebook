@@ -94,5 +94,5 @@ Implement a linear classifier end to end which takes review as input and tells i
 - Output = Max(Pred(y=red|x), Pgreen(y=green|x), Pblue(y=blue|x))
 - According to maximum probability obtain, you can determine which decision boundary worked best
 
-## Questions
-- Are the positive words in the simple_model also positive words in the sentiment_model? (Assignment - Question 8)
+## Assignment Question
+- 8: Are the positive words in the simple_model also positive words in the sentiment_model? (Assignment - Question 8)

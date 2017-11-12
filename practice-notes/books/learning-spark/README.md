@@ -1,3 +1,0 @@
-Learning Spark
---------------
-

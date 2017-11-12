@@ -1,0 +1,10 @@
+Installing External java in ubuntu 
+Source: (http://javapapers.com/core-java/install-java-jdk-in-linux-ubuntu-debian/)
+
+$ sudo apt-get install python-software-properties
+ 
+$ sudo add-apt-repository ppa:sun-java-community-team/sun-java6
+ 
+$ sudo apt-get update
+ 
+$ sudo apt-get install sun-java6-jdk
