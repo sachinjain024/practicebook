@@ -16,10 +16,28 @@ Similarly, we have N input points, how do we compute weights for all the feature
 We define likelihood estimation as:
 
     P(y1|x1,w).P(y2|x2,w)....P(yn|xn,w)
-    l(w) = for i -> [1, N] ∏ P(yi | xi,w) for N data points
+    l(w) = π P(yi | xi,w) where i ≤ N for N data points
     
 We want to choose `w` such that our likelihood is maximum.
 
+## Gradient Ascent algorithm
 
+- We can use gradient ascent algorithm to find the optimum value of w
 
+    w(t+1) = w(t) + µ(∆l/∂w)
+    where
+        t = iteration number
+        µ = step size
+        ∆l/∂w = [∂l/∂w0 + ∂l/∂w1 + .... + ∂l/∂wD] D+1 size matrix
+        
+### How to compute partial derivative of l(w)
 
+Derivative of log-likelihood
+
+    ∂l(w)/∂wj = i∑hj(xi) (I[yi = +1] - P(y = +1 | xi, w))
+    where
+    hjxi: Feature value. wj is the weight for this feature value only.
+            e.g. hj(xi) can be #awesome in ith point. We weigh the diff in actual and prediction by the coefficient.
+    I[yi = +1]: Indicator function. (Actual result) I = 1 when yi = +1 and I = 0 when yi = -1
+    P(y = +1 | xi, w): Predicted value for y being +1
+     
