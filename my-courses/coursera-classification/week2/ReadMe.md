@@ -36,8 +36,15 @@ Derivative of log-likelihood
 
     ∂l(w)/∂wj = i∑hj(xi) (I[yi = +1] - P(y = +1 | xi, w))
     where
-    hjxi: Feature value. wj is the weight for this feature value only.
+    hjxi: Feature value. wj is the jth weight for this feature from weight vector.
             e.g. hj(xi) can be #awesome in ith point. We weigh the diff in actual and prediction by the coefficient.
     I[yi = +1]: Indicator function. (Actual result) I = 1 when yi = +1 and I = 0 when yi = -1
     P(y = +1 | xi, w): Predicted value for y being +1
+    
+Different in I and P - Difference in actual and prediction and how much we should weigh it.
+If the prediction and actual are same, then weight for jth feature should not contribute much 
+and slope should not change much in this direction.
+
+We use gradient ascent in this problem because we wanted to maximize the likelihood so this is hill clilmbing problem
+While in regression we wanted to reduce the error so there we used gradient descent algorithm and that was hill downclimb problem.
      
