@@ -48,3 +48,13 @@ and slope should not change much in this direction.
 We use gradient ascent in this problem because we wanted to maximize the likelihood so this is hill clilmbing problem
 While in regression we wanted to reduce the error so there we used gradient descent algorithm and that was hill downclimb problem.
      
+### Choosing step size (µ)
+- This is hill climbing problem (Gradient ascent) so imagine if a person is supposed to climb the hill
+- When his step size is very small, it would take him long time to reach to the top
+- When his step size is too large, he may oscillate, cross the top and go the lower part in other direction but will eventually converge
+- But again very large step size may take long time
+- We have to use hit and try mechanism
+- Start with an approx value like 10^-5 or so and see the performance with 10^-6 and 10^-4
+- Which range has better value of log likelihood
+- Accordingly you can move in the direction whether you want to increase the value of your guess or find better value in the range.
+- Advance step: Decrease the step size with number of iterations (µ = µ/t where t is iteration number)
