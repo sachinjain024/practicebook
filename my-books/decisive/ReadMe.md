@@ -6,6 +6,7 @@ Decisive - How to make better decisions
 ## Four villians of decisions making
 - Narrow Framing
 - Confirmation Bias
+- Short term emotions
 
 ## How to avoid these four villians of decision making
 - WRAP Process
@@ -14,11 +15,28 @@ Decisive - How to make better decisions
 - Attain distance and then look at situation. 
 - Prepare to be wrong
 
-## Widen your Options (W)
-- MultiTracking
+## WRAP
+	- Widen Your options
+		- MultiTracking
+		- Opportunity Cose
+		- Vanishing Options test
+			- To figure out if you are not missing an important choice
+	- Reality test your assumptions
+		- Find persons who have solved this problem before
+		- Consider the opposite
+			- What you'd do if you are on other side of line.
+	- Attain distance before deciding
+		- What would your friend/successor do in this situation ?
+		- Zoom out and zoom in
+			- Zoom out: Try to see the situation from an external perspective
+			- Zoom in: Get more details on the situations
+			- Repeat above 2
+	- Prepare to be wrong
+		- Set a tripwire for decisions which doesn't have finite boundaries
+		- Bookend the future
+			- For estimating share price, do not go with a rough value, it is like giving a range based on best and worst situations
 
-- Oportunity Cost
-- How adding one more decision improve the accuracy rate of decisions
+## Widen your Options (W)
 
 ### Prevention Focus and Promotional Focus
 - Prevention Focus: Avoid anything bad
@@ -33,7 +51,6 @@ Decisive - How to make better decisions
 ### What to do when you are unable to expand your options ?
 - Vanishing Options test
 	- Try to think what else you can do when you do not have currently available options.
-	- Try to find someone who has solved your problem before
 
 ### Alarming "whether or not" situations ?
 
