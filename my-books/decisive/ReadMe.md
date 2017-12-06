@@ -9,31 +9,47 @@ Decisive - How to make better decisions
 - Short term emotions
 
 ## How to avoid these four villians of decision making
-- WRAP Process
-- Widen your options
-- Reality test your assumptions
-- Attain distance and then look at situation. 
-- Prepare to be wrong
+
+    WRAP Process
+
+1. Widen your options: Adds more options
+2. Reality test your assumptions: Practically test your options
+3. Attain distance before deciding: Out of selected options, which option works for you
+4. Prepare to be wrong: How to handle if the selected option goes wrong
 
 ## WRAP
 	- Widen Your options
-		- MultiTracking
-		- Opportunity Cose
-		- Vanishing Options test
+		1. MultiTracking
+		2. Opportunity Cost
+		3. Vanishing Options test
 			- To figure out if you are not missing an important choice
+		4. Laddering 
+			- Example - Increase your sales
+			- Find our your best spots
+			- Jump to next step and see different things your neighboring stores are doing
+			- How retail stores can increase sales in your country
+			- How other different category stores can increase sales 
+			- Remember the example of how walmart reduced the checkout hassle using the laddering process
 	- Reality test your assumptions
-		- Find persons who have solved this problem before
-		- Consider the opposite
+		1. Find persons who have solved this problem before
+		2. Consider the opposite
 			- What you'd do if you are on other side of line.
+			- Ask discomforting questions 
+		3. Ooch
+			- Try iit for sometime and see if it really works
 	- Attain distance before deciding
-		- What would your friend/successor do in this situation ?
-		- Zoom out and zoom in
+		1. What would your friend/successor do in this situation ?
+		2. Zoom out and zoom in
 			- Zoom out: Try to see the situation from an external perspective
 			- Zoom in: Get more details on the situations
 			- Repeat above 2
+		3. Remember your core prioritites 
+			- Are your core priorities to increase your sales or onbard a specific customer ?
+		4. 10-10-10 step
+			- How would you feel about this decision 10 seconds from now, 10 months from now and 10 years from now.
 	- Prepare to be wrong
-		- Set a tripwire for decisions which doesn't have finite boundaries
-		- Bookend the future
+		1. Set a tripwire for decisions which doesn't have finite boundaries
+		2. Bookend the future
 			- For estimating share price, do not go with a rough value, it is like giving a range based on best and worst situations
 
 ## Widen your Options (W)
