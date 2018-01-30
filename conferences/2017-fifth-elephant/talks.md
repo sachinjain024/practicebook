@@ -16,8 +16,12 @@
 - Paxos algorithm
 - lockless data structures
 - Secondary indexing in aerospike
+- Schema Agnostic Indexing paper
 - hybrid memory based system
 - SSD and DRAM
+- Log Structured File System
+- B-trees and persistence
+- Facebook unicorn
 
 ## Distributed Consensus
 - Google Spanner
@@ -45,12 +49,24 @@
 - BerkleyDB, Espresso, Facebook TAO
 - Document Stores have challenges in data storage
 - B Tree is better for inplace writes
-- LSM Bteer for high perf writes
-- Without schema understanding and querying of data becomes difficult
+- LSM Btree for high perf writes
+- Without schema understanding, querying of data becomes difficult
+- Schema is not evil
+- CAP is spectrum and not binary
+- AP-reads and AP-writes
+- Uber example
 - Jepsen tests
+- Data export and restore
 - NFS vs HDFS
 - FB Cold storage pattern
 - Check deck
+- Do we need a special graph db ?
+
+## CQRS
+- Read/write systems are separate
+- curefit: Titan as storage backed with cassandra
+- berkleydb: linked in espresso (sql)
+- facebook tau - built on top of sql
 
 ## Distributed Machine Learning
 - pipalacademy
@@ -59,6 +75,7 @@
 - Grid search
 - Data parallelism and Task Parallelism
 - scikit allows you to parallelize but not on different computers
+- Available solutions - SparkML, Dask
 
 ## ML from dev to prod
 - Semantics3 (Works in ecommerce domain)
@@ -100,4 +117,65 @@
 - Paper mentioned in the abstract: A tour through the visualization zoo: http://queue.acm.org/detail.cfm?id=1805128
 
 ## Designing ML Pipelines for transactional SMS data
+- Paysense, Montane ventures
+- SMS format
+- How to stop other appps reading your sms ?
+- FinTech apps read your sms
+- Use adb to pull sms from your phone
+- sklearn pipelines
+- Tf-IDF
+- Hashing Vectorizer
+- Debit/credit/due/overdue words
+- Balance/no balance - Sometimes present and sometimes not
+- System/Library to apply given rules to text form (NLP) ?
+
+## ML to guard open street map
+- Gabbar, mapbox: Bhargav Koushik
+- Instacart
+- 2.5m per day edits
+- How to avoid mistaken edits ?
+- Try out map editor ?
+- Edits -> Live (<10 mins)
+- PokemonGo used open street maps for spawning pokemons
+- Traditional validation - community approves nearby edits
+- OSM cha - review things
+- Can a system be designed - community of users using blockchian ?
+- Rule based validation
+- osm-compare github.com/mapbox
+- gabbar: mllib in python + js
+- jupyter heavily used
+- gabbar submits its preditctions to osmcha to be reviewed by other users
+- Python data science handbook
+
+## 5 Lessons - Learning Product Matching
+- semantics3
+- @govind2c
+- How do you get data / scrape ?
+- Build a good dataset
+	- Matches
+	- NonMatches (Similar but not same e.g. iphone 6, iphone 7)
+- Same background color, same website
+- Identification of criminals from faces (paper)
+- Model -> 90% correct
+- One model to rule them all
+- Bias towards younger people
+- Spending time on your dataset can be rewarding
+- Text: Diff vector space
+- MultiModel deep learning paper
+- ML as service offering
+- Inference needs to be involved
+- Apple Iphone7 on flipkart and Iphone 7 on amazon
+	- We can inference to say that they are same products similarly machines need to infer such things
+- Algorithmic APIs are non-deterministric
+- govindc.com
+
+## Image Matching
+- Dataweave, Kumar Shubham
+- Solr: How does it perform text search ? (Read paper)
+- Evernote: How does it sync ?
+- CoTraining approach
+- Semantic Hash
+- Preprocessing before hashing/generating
+- Local sensitivity hashing
+- Kernel sensitivity hashing
 
