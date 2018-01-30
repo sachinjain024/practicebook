@@ -34,7 +34,7 @@ Decisive - How to make better decisions
 		1. Find persons who have solved this problem before
 		2. Consider the opposite
 			- What you'd do if you are on other side of line.
-			- Ask discomforting questions 
+			- Ask discomforting questions
 		3. Ooch
 			- Try iit for sometime and see if it really works
 	- Attain distance before deciding
@@ -51,6 +51,8 @@ Decisive - How to make better decisions
 		1. Set a tripwire for decisions which doesn't have finite boundaries
 		2. Bookend the future
 			- For estimating share price, do not go with a rough value, it is like giving a range based on best and worst situations
+		3. Premortem 
+			- List down possible reasons for why this option could fail
 
 ## Widen your Options (W)
 
