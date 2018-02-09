@@ -19,4 +19,5 @@ within your app to trigger the payment flow.
 
 
 ## Steps to Run
-- Open chrome-extension://<extension-id>/index.html after installing the extension
+
+    Open chrome-extension://<extension-id>/index.html after installing the extension
