@@ -1,0 +1,543 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bl",
+				"blendedCount"
+			],
+			[
+				"Def",
+				"Default-5835b8a59aabd400003ee5e5-totalFilteredCount"
+			],
+			[
+				"s",
+				"sparkAppRuntimeInSeconds"
+			],
+			[
+				"spa",
+				"sparkAppEndTimeMillis"
+			],
+			[
+				"ble",
+				"blendedRows"
+			],
+			[
+				"metrics",
+				"metricsObj"
+			],
+			[
+				"metr",
+				"metricsObj"
+			],
+			[
+				"ori",
+				"originalRows"
+			],
+			[
+				"model",
+				"modelDsvId"
+			],
+			[
+				"met",
+				"metricsObj"
+			],
+			[
+				"re",
+				"resultDate"
+			],
+			[
+				"Hb",
+				"HBaseUtil"
+			],
+			[
+				"par",
+				"parameters"
+			],
+			[
+				"amo",
+				"amoDf"
+			],
+			[
+				"alias",
+				"aliasDf"
+			],
+			[
+				"colu",
+				"columnsList"
+			],
+			[
+				"col",
+				"columnsList"
+			],
+			[
+				"hea",
+				"headerIntoStr"
+			],
+			[
+				"he",
+				"headerInfo"
+			],
+			[
+				"column",
+				"columnsList"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "Package Control: Install",
+		"selected_items":
+		[
+			[
+				"Package Control: Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/sachinjain/personal/repo/practicebook/competitions/kaggle"
+	],
+	"file_history":
+	[
+		"/Users/sachinjain/personal/repo/practicebook/my-courses/udemy-introduction-to-kafka/ReadMe.md",
+		"/Users/sachinjain/personal/repo/scripts/global_gitignore_file",
+		"/Users/sachinjain/personal/Dropbox/notes/personal/books.txt",
+		"/Users/sachinjain/personal/repo/practicebook/my-courses/udemy-machinelearning-a-z/ReadMe.md",
+		"/Users/sachinjain/personal/repo/scripts/edgestore/edgeStoreSetup",
+		"/Users/sachinjain/personal/repo/practicebook/machinelearning-sandbox/Questions.md",
+		"/Users/sachinjain/personal/repo/practicebook/machinelearning-sandbox/ReadMe.md",
+		"/Users/sachinjain/personal/repo/practicebook/my-books/decisive/ReadMe.md",
+		"/Users/sachinjain/personal/repo/mallways/mallways-android/app/src/main/assets/home.json",
+		"/Users/sachinjain/personal/repo/scripts/change_directory",
+		"/Users/sachinjain/personal/repo/scripts/alias.sh",
+		"/Users/sachinjain/personal/repo/practicebook/conferences/2017-fifth-elephant/talks.md",
+		"/Users/sachinjain/personal/repo/freelance/pixel-store-script/components/purge/data/stores.txt",
+		"/Users/sachinjain/personal/repo/scripts/Setup.md",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-5113-profile-service-return-json/commands.scala",
+		"/Users/sachinjain/personal/repo/scripts/toolsSetup",
+		"/Users/sachinjain/.ssh/config",
+		"/Users/sachinjain/personal/repo/scripts/git/git-completion.bash",
+		"/Users/sachinjain/personal/repo/scripts/mcdp/mcdpSetup",
+		"/Users/sachinjain/personal/repo/practicebook/practice-notes/books/decisive/ReadMe.md",
+		"/Users/sachinjain/personal/Dropbox/Documents/Annual/April 2016- March 2017/ITR/taxInfo.txt",
+		"/Users/sachinjain/personal/repo/scripts/mcdp/commands/blender_run",
+		"/Users/sachinjain/personal/repo/scripts/git/gpull",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/confs-talks-demos-research-pocs/ts2017-mcdp-pipeline/talks.md",
+		"/Users/sachinjain/personal/GoogleDrive/Trips/US 2017/expenses.txt",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-5309-flatten-schema-hbase/commands2.scala",
+		"/Users/sachinjain/personal/repo/freelance/pixel-store/backups/2017-02-09.json",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-5083-analyze-amo-data-for-attribution/results.js",
+		"/Users/sachinjain/personal/Dropbox/Documents/Annual/April 2017 - March 2018/Wellness-Reimbursements-2017.md",
+		"/Users/sachinjain/personal/Dropbox/Documents/Annual/April 2017 - March 2018/RentSheet.mdown",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6775-special-characters-hbase/commands.scala",
+		"/Users/sachinjain/personal/repo/scripts/git/gpersonal-project-config",
+		"/Users/sachinjain/work/git/mcdp/hbase-performance-evaluator/.git/config",
+		"/Users/sachinjain/.gitconfig",
+		"/Users/sachinjain/personal/Dropbox/Documents/Annual/April 2016- March 2017/ITR/RentSheet.md",
+		"/Users/sachinjain/personal/Dropbox/Notes/personal/daily_2017.md",
+		"/Users/sachinjain/personal/Dropbox/Documents/Annual/April 2016- March 2017/IPSF/documentsList.txt",
+		"/Users/sachinjain/personal/Dropbox/Documents/Annual/2016-2017/IPSF/documentsList.txt",
+		"/Users/sachinjain/personal/Dropbox/Documents/Annual/April 2016- March 2017/RentSheet.md",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-5083-analyze-amo-data-for-attribution/commands.scala",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-5083-analyze-amo-data-for-attribution/results3.js",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-5083-analyze-amo-data-for-attribution/results2.js",
+		"/Users/sachinjain/personal/Dropbox/notes/personal/daily.txt",
+		"/Users/sachinjain/personal/Dropbox/Documents/Annual/2016-2017/taxInfo.txt",
+		"/Users/sachinjain/swtools/spark-1.6.1-bin-without-hadoop-hive/conf/spark-defaults.conf",
+		"/Users/sachinjain/personal/repo/roughregister/mgp/verbal_rough_notes.md",
+		"/Users/sachinjain/personal/repo/practicebook/my-courses/udemy-complete-guide-to-angular-2/Questions.md",
+		"/Users/sachinjain/personal/repo/practicebook/my-courses/udemy-complete-guide-to-angular-2/ReadMe.md",
+		"/Users/sachinjain/personal/Dropbox/Documents/Annual/2016-2017/Wellness bills/summary.txt",
+		"/Users/sachinjain/personal/repo/roughregister/my-gmat-preparation/rc-webinar-dec-2016.md",
+		"/Users/sachinjain/personal/Dropbox/notes/personal/mba.md",
+		"/Users/sachinjain/personal/Dropbox/Trips/Delhi-Agra-Jaipur/Expenses.md",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-5083-analyze-amo-data-for-attribution/analysis_results/chegg/batchId=5846b37cb6449a0e00f9cd76/part-00188-d5518dd4-25fd-4dd9-84a9-4fc1a706ae54",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-5083-analyze-amo-data-for-attribution/appFields2.json",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-5083-analyze-amo-data-for-attribution/appFields.json",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/docs/credentials.md",
+		"/Users/sachinjain/work/git/mcdp/shanker-awesomo4000/run.sh",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-7215-blender-failing/logs.txt",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-7215-blender-failing/raven-prod-pnw_blender.json",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/confs-talks-demos-research-pocs/clip2-demo/ReadMe.md",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-7215-blender-failing/logs_2.txt",
+		"/Users/sachinjain/.docker/config.json",
+		"/Users/sachinjain/personal/repo/practicebook/presentation-skills/skills.md",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-5083-analyze-amo-data-for-attribution/amoModelDSVExpBlock.js",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-5083-analyze-amo-data-for-attribution/amoMasterDSVExpressionBlocks.js",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-5083-analyze-amo-data-for-attribution/problems.md",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-5083-analyze-amo-data-for-attribution/appFields.txt",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-5083-analyze-amo-data-for-attribution/aamLookupsExpressions.js",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-5083-analyze-amo-data-for-attribution/siteLookupWithMcidExps.txt",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/keys/aws.txt",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/catalog_config_1.json",
+		"/Users/sachinjain/personal/Dropbox/Notes/personal/mba.md",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-5083-analyze-amo-data-for-attribution/app_dsv_run_logs.txt",
+		"/Users/sachinjain/personal/repo/freelance/pixel-store/backups/2016-11-15.json",
+		"/Users/sachinjain/personal/Dropbox/Documents/Annual/2016-2017/SBI_Policy_69146.pdf",
+		"/Users/sachinjain/work/git/mcdp/mcdp-scripts/tools/catalog-downloader/src/config.js",
+		"/Users/sachinjain/work/data/alias/dpid=411/AWS Credentials.txt",
+		"/Users/sachinjain/work/data/alias/dpid=411/sample_2.tsv",
+		"/Users/sachinjain/work/data/alias/dpid=411/sample_",
+		"/Users/sachinjain/.ssh/id_rsa.pub",
+		"/Users/sachinjain/.ssh/dma_rsa.pub",
+		"/Users/sachinjain/work/data/blender/Logs/attribution/SITE/head.log",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-5083-analyze-amo-data-for-attribution/analytics_schema_complete.txt",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-5083-analyze-amo-data-for-attribution/analytics_schema_cleaned.txt",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6775-special-characters-hbase/catalog.json",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-5083-aam-alias-ingest/AWS Credentials.txt",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6529-share-connection-pool/commands.scala",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-5113-profile-service-return-json/catalog.json",
+		"/Users/sachinjain/work/git/dpid=977/sample_9770.tsv",
+		"/Users/sachinjain/.aws/credentials",
+		"/Users/sachinjain/.aws/config",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/keys/mc_aws.csv",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/meetings/2016-10-25-profileservice-apis.md",
+		"/Users/sachinjain/personal/Dropbox/Public/requestly/firefox/index.html",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/cleaned_catalog.json",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/blender_run_command.txt",
+		"/Users/sachinjain/swtools/hbase-1.1.2/conf/hbase-site.xml",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/catalog_config_1_local_data.json",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/docker_urls_code_binary_search.txt",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/local_run_debug_till_manish_code_logs_G291.txt",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/local_run_till_agraj_code_logs.txt",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/local_run_till_manish_code_logs_G291.txt",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/local_run_debug_till_agraj_code_logs_G292.txt",
+		"/Users/sachinjain/swtools/spark-1.6.1-bin-without-hadoop-hive/conf/log4j.properties",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/local_env_till_agraj_code_1.png",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/till-agraj-checkin-logs.txt",
+		"/Users/sachinjain/work/git/mcdp/temp_amit.txt",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/till-manish-checkin-logs.txt",
+		"/Users/sachinjain/work/data/blender/Logs/catalog.conf",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/meetings/2016-10-checkin-discussion.md",
+		"/Users/sachinjain/work/git/mcdp/sparkle/logs.txt",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/catalog_config_1.js",
+		"/Users/sachinjain/work/git/office-work/adobe/target/README.md",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/meetings/2016-07-08-checkin.md",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/local_env_till_manish_basepath_code_1_gauntlet_291.png",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/app_dsvid_expBlocks_original.json",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/env_config.txt",
+		"/Users/sachinjain/docker_ws/Dockerfile",
+		"/Users/sachinjain/work/git/mcdp/sparkle/temp.txt",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/catalog.json",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/catalog2.json",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/blender_logs_build_274_npe.txt",
+		"/Users/sachinjain/docker/Dockerfile",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/blender_logs_build_271_exception.txt",
+		"/Users/sachinjain/personal/repo/practicebook/practice-notes/books/learning-spark/Questions.md",
+		"/Users/sachinjain/work/Dockerfile",
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-4875-last-task-not-running/blender_run_command.txt",
+		"/Users/sachinjain/personal/repo/practicebook/practice-notes/books/learning-spark/README.md"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "kaggle-competitions.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"book",
+				"personal/books.txt"
+			],
+			[
+				"global",
+				"scripts/global_gitignore_file"
+			],
+			[
+				"boo",
+				"personal/books.txt"
+			],
+			[
+				"books",
+				"personal/books.txt"
+			],
+			[
+				"scripts",
+				"scripts/edgestore/edgeStoreSetup"
+			],
+			[
+				"chan",
+				"scripts/change_directory"
+			],
+			[
+				"change",
+				"scripts/change_directory"
+			],
+			[
+				"scri",
+				"scripts/alias.sh"
+			],
+			[
+				"ali",
+				"scripts/alias.sh"
+			],
+			[
+				"alias",
+				"scripts/alias.sh"
+			],
+			[
+				"edge",
+				"scripts/edgestore/edgeStoreSetup"
+			],
+			[
+				"mcdp",
+				"scripts/mcdp/mcdpSetup"
+			],
+			[
+				"tools",
+				"scripts/toolsSetup"
+			],
+			[
+				"setup",
+				"scripts/toolsSetup"
+			],
+			[
+				"ble",
+				"scripts/mcdp/commands/blender_run"
+			],
+			[
+				"gpu",
+				"scripts/git/gpull"
+			],
+			[
+				"tax",
+				"~/personal/Dropbox/Documents/Annual/April 2016- March 2017/ITR/taxInfo.txt"
+			],
+			[
+				"gper",
+				"scripts/git/gpersonal-project-config"
+			],
+			[
+				"g",
+				"scripts/global_gitignore_file"
+			],
+			[
+				"blen",
+				"scripts/mcdp/commands/blender_run"
+			],
+			[
+				"da",
+				"personal/daily.txt"
+			],
+			[
+				"cha",
+				"scripts/change_directory"
+			],
+			[
+				"mba",
+				"personal/mba.md"
+			],
+			[
+				"dai",
+				"personal/daily.txt"
+			],
+			[
+				"alia",
+				"scripts/alias.sh"
+			],
+			[
+				"tool",
+				"scripts/toolsSetup"
+			],
+			[
+				"dail",
+				"personal/daily.txt"
+			],
+			[
+				"mcdps",
+				"scripts/mcdp/mcdpSetup"
+			],
+			[
+				"credentials",
+				"~/work/git/office-work/adobe/mcdp/tasks/mcdp-5083-aam-alias-ingest/AWS Credentials.txt"
+			],
+			[
+				"al",
+				"scripts/alias.sh"
+			],
+			[
+				"blender",
+				"scripts/mcdp/commands/blender_run"
+			],
+			[
+				"too",
+				"scripts/toolsSetup"
+			],
+			[
+				"mcd",
+				"scripts/mcdp/mcdpSetup"
+			],
+			[
+				"glo",
+				"scripts/global_gitignore_file"
+			],
+			[
+				"giti",
+				"scripts/global_gitignore_file"
+			],
+			[
+				".gitig",
+				"scripts/.gitignore"
+			],
+			[
+				"se",
+				"scripts/toolsSetup"
+			],
+			[
+				"desk",
+				"personal/desktopSetup.txt"
+			],
+			[
+				"liash",
+				"scripts/alias.sh"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/personal/repo/roughregister/collection/sublime_projects/ow-unifiedEdge.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 278.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

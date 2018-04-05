@@ -2,8 +2,15 @@
 
 ## Setup Steps
 
-1. Install pipenv
-2. Install dependencies (Dependencies are maintained in Pipfile e.g. jupyter)
+- Install pipenv
+- Setup Pipenv project
+
+    pipenv --python 3.6  
+
+- Install dependencies (Dependencies are maintained in Pipfile e.g. jupyter)
+
     pipenv install
-3. Open jupyter
+
+- Open jupyter
+
     pipenv run jupyter notebook
