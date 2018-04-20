@@ -40,5 +40,6 @@ public class AerospikeEntityNameGeneratorTest {
         assertEquals("fN", AerospikeEntityNameGenerator.generateShortName("first Name", 10));
         assertEquals("f", AerospikeEntityNameGenerator.generateShortName("firstname", 10));
         assertEquals("avln", AerospikeEntityNameGenerator.generateShortName("a very long name for the bin", 4));
+        assertEquals("Wt2c", AerospikeEntityNameGenerator.generateShortName("Welcome to 20th century", 4));
     }
 }
