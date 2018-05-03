@@ -87,6 +87,40 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "titanic-sinking-classification/project/ReadMe.md",
+			"settings":
+			{
+				"buffer_size": 903,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "ReadMe.md"
+			}
+		},
+		{
+			"file": "titanic-sinking-classification/data/submission_random_forest_classifer.csv",
+			"settings":
+			{
+				"buffer_size": 2839,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "titanic-sinking-classification/data/train.csv",
+			"settings":
+			{
+				"buffer_size": 60302,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "house-pricing-regression/project/Pipfile",
+			"settings":
+			{
+				"buffer_size": 222,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -127,10 +161,20 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/sachinjain/personal/repo/practicebook/competitions/kaggle"
+		"/Users/sachinjain/personal/repo/practicebook/competitions/kaggle",
+		"/Users/sachinjain/personal/repo/practicebook/competitions/kaggle/titanic-sinking-classification",
+		"/Users/sachinjain/personal/repo/practicebook/competitions/kaggle/titanic-sinking-classification/data",
+		"/Users/sachinjain/personal/repo/practicebook/competitions/kaggle/titanic-sinking-classification/project"
 	],
 	"file_history":
 	[
+		"/Users/sachinjain/personal/repo/practicebook/competitions/kaggle/house-pricing-regression/project/ReadMe.md",
+		"/Users/sachinjain/personal/repo/practicebook/competitions/kaggle/titanic-sinking-classification/project/Pipfile",
+		"/Users/sachinjain/personal/repo/practicebook/competitions/kaggle/titanic-sinking-classification/data/gender_submission.csv",
+		"/Users/sachinjain/personal/repo/practicebook/competitions/kaggle/titanic-sinking-classification/data/test.csv",
+		"/Users/sachinjain/personal/repo/practicebook/competitions/kaggle/titanic-sinking-classification/data/train.csv",
+		"/Users/sachinjain/personal/repo/practicebook/competitions/kaggle/house-pricing-regression/project/Exercise.ipynb",
+		"/Users/sachinjain/personal/repo/practicebook/competitions/kaggle/house-pricing-regression/project/Pipfile.lock",
 		"/Users/sachinjain/personal/repo/practicebook/my-courses/udemy-introduction-to-kafka/ReadMe.md",
 		"/Users/sachinjain/personal/repo/scripts/global_gitignore_file",
 		"/Users/sachinjain/personal/Dropbox/notes/personal/books.txt",
@@ -251,14 +295,7 @@
 		"/Users/sachinjain/docker_ws/Dockerfile",
 		"/Users/sachinjain/work/git/mcdp/sparkle/temp.txt",
 		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/catalog.json",
-		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/catalog2.json",
-		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/blender_logs_build_274_npe.txt",
-		"/Users/sachinjain/docker/Dockerfile",
-		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/blender_logs_build_271_exception.txt",
-		"/Users/sachinjain/personal/repo/practicebook/practice-notes/books/learning-spark/Questions.md",
-		"/Users/sachinjain/work/Dockerfile",
-		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-4875-last-task-not-running/blender_run_command.txt",
-		"/Users/sachinjain/personal/repo/practicebook/practice-notes/books/learning-spark/README.md"
+		"/Users/sachinjain/work/git/office-work/adobe/mcdp/tasks/mcdp-6200-blender-stuck-while-writing-to-hbase/catalog2.json"
 	],
 	"find":
 	{
@@ -293,8 +330,122 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "titanic-sinking-classification/project/ReadMe.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 903,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								593,
+								593
+							]
+						],
+						"settings":
+						{
+							"auto_name": "ReadMe.md",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "titanic-sinking-classification/data/submission_random_forest_classifer.csv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2839,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "titanic-sinking-classification/data/train.csv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 60302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1438,
+								1438
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "house-pricing-regression/project/Pipfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								222
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
