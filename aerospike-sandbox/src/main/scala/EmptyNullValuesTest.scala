@@ -25,10 +25,10 @@ object EmptyNullValuesTest {
 
     client.put(policy, key, bin1, bin2, bin3)
 
-    // Read record
-    val readPolicy = new Policy
-    val record = client.get(policy, key, "emptyStringCol", "nullValue", "nullValueAsStr", "notExistsColu")
+    // Print Selected Columns
+    println(client.get(policy, key, "emptyStringCol", "nullValue", "nullValueAsStr", "notExistsColu"))
 
-    print(record)
+    // Print all columns to see if get nullValue as column
+    println(client.get(policy, key))
   }
 }
