@@ -36,3 +36,10 @@ Innovation and Creativity
 	- Online community generates ideas
 	- Community selects ideas
 	- Online store and physical store
+
+## Catalyzing Innovation
+- Miles David, Musician started playing in different mode in one of the concerts and throwing his team out of the game
+- Made the team uncomfortable but now they have to be createive and it produced the highest selling jazz album
+- One airlines spent the weekend inside the flight to figure out how to improve customer service
+- Eventually they found innovative ways to make comfortable seats
+- Idea is to disrupt the basic routines and throw into uncomfortable zone to bring out the innovation
