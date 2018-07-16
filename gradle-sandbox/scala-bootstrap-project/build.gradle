@@ -1,0 +1,17 @@
+group 'io.practicebook.sachinjain024'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'scala'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.scala-lang:scala-library:2.11.8'
+}
+
+apply plugin: 'application'
+mainClassName = 'io.practicebook.sachinjain024.HelloWorldApp'
