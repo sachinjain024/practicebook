@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDFSofo_kvxuVCfj8CXn4gO312sxlHG7gg",
+        authDomain: "fb-sandbox-0.firebaseapp.com",
+        databaseURL: "https://fb-sandbox-0.firebaseio.com",
+        projectId: "fb-sandbox-0",
+        storageBucket: "fb-sandbox-0.appspot.com",
+        messagingSenderId: "825560139886"
+      };
+      firebase.initializeApp(config);
+    </script>
+  </head>
+
+  <body>
+    <center>
+      <h2>This page is used to test realtime push on server changes</h2>
+    </center>
+
+    <div id="message">
+      This is placeholder message and will be updated by firebase
+    </div>
+
+    <script src="realtime-updates.js"></script>
+  </body>
+</html>
