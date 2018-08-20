@@ -1,0 +1,22 @@
+{
+  "name": "node-sandbox",
+  "version": "1.0.0",
+  "description": "\"Playground area for exploring different npm packages, node apis etc\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "apis",
+    "node",
+    "playground",
+    "sandbox"
+  ],
+  "author": "sachinjain024@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "json-rules-engine": "^2.3.0"
+  }
+}
