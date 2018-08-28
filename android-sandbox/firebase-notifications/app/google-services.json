@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "825560139886",
+    "firebase_url": "https://fb-sandbox-0.firebaseio.com",
+    "project_id": "fb-sandbox-0",
+    "storage_bucket": "fb-sandbox-0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825560139886:android:784abeb9846d6446",
+        "android_client_info": {
+          "package_name": "sachinjain024.practicebook.io.firebase_android_notifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825560139886-rju1gs63h2bb2663st5i1kjk9p29bfn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdScVJXK-heSc3oerV605w4c8e567FnjI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
