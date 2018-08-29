@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "825560139886-auo9sa3h6apuc3ppi4h6l7ev3ctpd1su.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sachinjain024.practicebook.io.firebase_android_notifications",
+            "certificate_hash": "a3901974a71875333915510cbb5e7e0f9ec33cad"
+          }
+        },
+        {
           "client_id": "825560139886-rju1gs63h2bb2663st5i1kjk9p29bfn1.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825560139886-rju1gs63h2bb2663st5i1kjk9p29bfn1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
