@@ -1,0 +1,23 @@
+Analysis - Segment Value by Revenue of Individual Keywords present in Segment Name
+----------------------------------------------------------------------------------
+
+In this problem statement, we will discuss the pros and cons for defining the segment value using the revenue for each keyword present in segment name.
+This approach provides a simplistic model to determine the segment value.
+Segment name is a very specific string and contain important keywords only so it strongly suggests that keywords in segment name contribute to segment value.
+Unlike products/restaurants/others' reviews (or other statements) which may contain sentiments, sarcasms etc, segment name contains high density keywords
+each of which contribute more or less to segment value. Therefore it makes sense to derive segment value by keywords revenue.
+Using this approach we can get a general sense of segments and their value.
+
+Please note the previous statement mentions general sense because this approach has some limitations.
+When we take individual keywords and their contribution, we are ignoring the correlation between the keywords.
+For example, if we talk about rent for house in general
+
+    LakeSide - 2000$/month
+    TwoGates - 1500$/month
+    But, the rent for LakeSide and TwoGates house will be more than 3500$/month
+
+The same concept applies here. In order to consider the correlation between the keywords we have to build a complex model with new dimensions as combination of those keywords.
+Similarly, when we combine two keywords whose individual values are high but together the segment value could be less.
+For example
+
+    OnlineShoppers, Kids each could their individual values but Kids who are OnlineShoppers this segment is less likely to have a greater value than individual keywords
