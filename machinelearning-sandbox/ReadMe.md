@@ -3,9 +3,6 @@
 
 ## Bias-Variance TradeOff
 - Bias and Variance are two terms referred for telling the degree of underfit and overfit of a model
-- If the model learns too less from training data, it is called underfit and highly biased towards training set
-- If the model learns too well from training data, it is called overfit and has high variance with actual curve
-- These two sources error must be minimized
 - Bagging algorithms control only variance
 - Boosting algorithms controls both bias as well as variance
 
@@ -23,14 +20,12 @@
 ## Gradient Boosting
 - Boosting is a method of parameter tuning of the model while controlling bias and variance
 
-## HyperParameters
-- Parameters that are not learned
 
-## K-Fold Cross Validation
-- Helps in model selection.
-
-## XGBoost
-- High Performance parameter tuning
-- Implementation of Gradient descent with high performance and high execution speed
-- High Performance means parameter tuned with XGBoost does not loose the accuracy
-- Fast execution means implementation is such that it runs very fast
+clock sync deviation margin
+reverse the lines in 3rd box
+split provisioning info into requirements and allocations
+tables are geo local
+status in storage services and repliva
+status in bootstrap info
+flatten table definitions and column name should be config
+status
