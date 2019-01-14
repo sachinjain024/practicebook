@@ -3,6 +3,36 @@ Ted Talks
 
 With every afternoon meal, I watch 1-2 Ted talks to improve myself, learn from others and broaden my perspective for different things. Following is a post session summary I could find in my head or the most impressive things I found during the talk.
 
+## Lera Boroditsky, How languages shapes the way we think
+- Humans have the leverage of language to communicate thoughts among each other
+- Different languages trigger thoughts differently for same event
+- A Picture with a person and vase falling
+	- English: He broke the vase
+	- Spanish: The vase broke
+- It matters in case of eye witnesses but the way the fact is presented it changes the severity of crime and hence the nature of punishment
+- Some languages do not have words for numbers like eight, seven etc so these people have difficulty in learning mathematics and performing some common actions
+- Grammar based gender
+	- Bridge is masculine in german while feminie in spanish (or vice-versa)
+	- Germans would say bridges are strong, long (masculine words)
+	- Spanish would say bridges are beautiful (feminine words)
+
+## AJ Jacobs, Journey to thank people involved in morning coffee
+- Book: Thank a thousand
+- Kid giving idea to thank people in person because they cannot see/hear thanks offered in the room
+- Lessons from gratitude journey by saying thank you to everyone involved in coffee shop
+	* Give attendtion to people when they talk to you
+		- Story of a barista, Chung who was very pleasant and happy but had a difficult job sometimes
+			* People expresses unhappiness including 9-year girl when she did a different design
+			* People not treating as proper human being as giving credit card without looking at her
+	* Observe master pieces around us
+		- On/Off switch
+		- Coffee lid
+		- Chair
+		- Think how many people put in how much efforts to bring this to you
+	* Fake it till you feel it
+- Behaviour change thoughts and thoughts change behaviour
+- When you are grateful, you tend to help others otherwise you are caught up in your own needs
+
 ## Liv Boeree, 3 Lessons from playing poker
 - There are so many factors playing in your win so do not overestimate your skills for it
 - There is always a probability of everything
