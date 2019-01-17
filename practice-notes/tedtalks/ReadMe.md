@@ -3,6 +3,24 @@ Ted Talks
 
 With every afternoon meal, I watch 1-2 Ted talks to improve myself, learn from others and broaden my perspective for different things. Following is a post session summary I could find in my head or the most impressive things I found during the talk.
 
+## Matthieu Ricard, The habits of happiness
+- Mind training matters
+- When we spend 15 years into education, spend a lot on our community and everything else to remain life happy and beautiful but not spend enough to train our mind which matters most
+- When we are not happy from within, it does not matter what do we have. Even if we have flat on 100th floor most comfortable and most luxurious, we are only looking for a window to jump from.
+- We can not have two opposite states of emotions - We cannot love/hate same person simultaneously
+
+## Peter Johansson, Do you know what we do why we do?
+- Conducted an experiment where a person is given two choices and person has to make a choice and explain it later
+	* In some choices, speaker switched the choices when handed over the card to person
+	* In most of the cases person did not catch that choice has been switched and yet explained why he liked that other choice
+- Another experiement in Sweden where persons were asked questions about political party
+	* Speaker asked the person to explain why he chose the opposite choice intentionally and that person in most of the times did explain.
+	* Speaker was able to convert left people to right and right people to left after questionaire without them knowing
+- Choice blindness
+	* Ways in which people are blind to (not aware of) their own choices and preferences
+	* We think we want A but when we are given B, we make up all kinds of reasons that would persuade us into believing that B is a much better alternative and how we actually wanted it all along.
+	* https://explorable.com/choice-blindness
+
 ## Lera Boroditsky, How languages shapes the way we think
 - Humans have the leverage of language to communicate thoughts among each other
 - Different languages trigger thoughts differently for same event
