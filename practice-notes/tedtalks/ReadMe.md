@@ -3,6 +3,11 @@ Ted Talks
 
 With every afternoon meal, I watch 1-2 Ted talks to improve myself, learn from others and broaden my perspective for different things. Following is a post session summary I could find in my head or the most impressive things I found during the talk.
 
+## How to disagree productively, Julia Bhar
+- Do not associate idea with a person
+- Often when you discuss you get to understand the otherside of situation
+- One of the tricks is to have better debate/discussion is to bring people on common ground first and then take from there
+
 ## Matthieu Ricard, The habits of happiness
 - Mind training matters
 - When we spend 15 years into education, spend a lot on our community and everything else to remain life happy and beautiful but not spend enough to train our mind which matters most
