@@ -3,6 +3,16 @@ Ted Talks
 
 With every afternoon meal, I watch 1-2 Ted talks to improve myself, learn from others and broaden my perspective for different things. Following is a post session summary I could find in my head or the most impressive things I found during the talk.
 
+## What makes a good life? Robert Waldinger
+- When asked about the goals for 90% of millennials, they said they want to become rich
+- Out of those 50% said they want to be famous
+- Harvard Univerisy is doing research with approx 700 people in which they observe their life from childhood to old age and they see patterns of what leads happiness and sorrows
+- Research is being carried out since 1938 and groups of two men including a group from underpriveleged area
+- These guys take their medical reports, also video tape discussions with their family members 
+- Research found that at the age of 50, those people were happy who had better relationships
+	* Healthy relationship with friends, family or community
+	* Healthy relationship leads to good healthy body as well as healthy mind
+
 ## How to disagree productively, Julia Bhar
 - Do not associate idea with a person
 - Often when you discuss you get to understand the otherside of situation
