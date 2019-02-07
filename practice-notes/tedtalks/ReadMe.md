@@ -3,7 +3,15 @@ Ted Talks
 
 With every afternoon meal, I watch 1-2 Ted talks to improve myself, learn from others and broaden my perspective for different things. Following is a post session summary I could find in my head or the most impressive things I found during the talk.
 
-## What makes a good life? Robert Waldinger
+## 10) Never ever give up - Diana Nyad
+- Dyana Nyad swam from Cuba to Florida in 53 hours at age of 64
+- She did it in her fifth attempt
+- It is not what you get after achieving your dreams but what you become while achieving them
+- It was a team effort
+- Night was very dark, so black that you can't see your own hand. You can't turn on light as it attracts fish which attracts starks, jellyfish (poisnous)
+- People aim for the stars, dyana was aiming for the horizon :-)
+
+## 9) What makes a good life? Robert Waldinger
 - When asked about the goals for 90% of millennials, they said they want to become rich
 - Out of those 50% said they want to be famous
 - Harvard Univerisy is doing research with approx 700 people in which they observe their life from childhood to old age and they see patterns of what leads happiness and sorrows
