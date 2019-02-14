@@ -3,6 +3,33 @@ Ted Talks
 
 With every afternoon meal, I watch 1-2 Ted talks to improve myself, learn from others and broaden my perspective for different things. Following is a post session summary I could find in my head or the most impressive things I found during the talk.
 
+## 12) The brain benefits of deep sleep - Dan Gartenberg
+- Showed 4 types of brain wave patterns
+	* Waking 
+	* Normal Sleep
+	* REM
+	* Deep Sleep
+- Waking wave patterns were very similar to brain wave patterns in REM (Rapid Eye Movement) sleep mode
+- In deep sleep, there are bursts of waves with some frequency
+- Dan along with Harvard medical research group created a device to produce sound patterns which match the frequency of wave patterns in deep sleep and it makes transition from rem sleep to deep sleep sooner
+- Sleep affects the mental state of health and affects how you think, take decisions, stress level, productivity level etc
+- Students who used the devices denied remembering the sounds from the device
+
+## 11) Agile Programming for the families - Bruce Fieler
+- Talked to more than 1000 families
+- In Hardvard Business Review 1986 article, someone found the new approach for working - Agile
+- Quote: All happy families are alike, all unhappy families are unhappy in their own way
+- Secret to make a happy family is TRY
+	* Take small steps
+	* Accumulate small wins
+- Bruce started family conversation every sunday where they discussed what went well last week, and everyone threw ideas for what to do next week and they pick two items to focus on
+- Checkbox is very strong and it is heaven for kids.
+- 3 lessons from Bruce
+	1. Adaptability: Ready to adapt in different situations, while making decisions. Be open mind and let best ideas win
+	2. Empower your children: Allow them to make mistakes, evaluate them and work with them. More importanly give more focus on what they do right than what they do wrong
+	3. Tell your Story
+		* Research backs "Do you know" test in which you ask kids questions like do you know where were your grandparents born, where did your parents go to school, different hardships you faced in life and how you or other family members overcame hardships
+
 ## 10) Never ever give up - Diana Nyad
 - Dyana Nyad swam from Cuba to Florida in 53 hours at age of 64
 - She did it in her fifth attempt
