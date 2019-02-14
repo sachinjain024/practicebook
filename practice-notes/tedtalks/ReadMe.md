@@ -3,9 +3,18 @@ Ted Talks
 
 With every afternoon meal, I watch 1-2 Ted talks to improve myself, learn from others and broaden my perspective for different things. Following is a post session summary I could find in my head or the most impressive things I found during the talk.
 
+## 13) Your elusive creative genius - Elizabeth Gilbert
+- Author of "Eat, Pray & love"
+- Ancient Greeks and Romans felt that there is some external power which gives creativity. Greeks used to call is daemons and Romans used to call it genius.
+- A poet (90 years old) told the speaker that when she used to work in farms in early childhood, she used to feel like poems chasing her from landscapes and she ran to the house to take pen and paper and note them down. Sometimes they also got lost while she reaches home and sometimes she used to pull poem back from her other hand and in result the poem got written in reverse (bottom to top)
+- Tom, singer once was driving through LA Freeway and he got a nice song. Instead of being disturbed by the fact he could not write it down, he did something unique, novel - He stopped, came out of car and pointed towards the sky and said Can't you see I am driving right now. Can you come at more opportune time ? If you really want to come right now, go bother someone else.
+- This approach was also used by Speaker when she was writing "Eat, Pray & Love" book. In the middle of the work, she felt that this is going to be her worst project ever and she started feeling to dump the book but then she started talking to empty corner of the room and said Can't you see I am doing my best part ever and if this is going to be a failure, it will be a failure for both of us because you are not doing your job. And even this time, I am doing my job by saying to you to come up and do your part.
+- A similar story was from North Africa Deserts where there used to be performance and once in a while one of the dancers get something on him and his performance used to feel divine and people start to chant "Allah, Allah, God, God" and when Spain invaded them, they took this custom with them and in bull fights and other performances, people call "Ole, Ole, Bravo, Genius" whenever something unusual happens.
+- Moral of the talk is - "Do your job and you will get Ole nonetheless. And if you do not get Ole, even then do your job".
+
 ## 12) The brain benefits of deep sleep - Dan Gartenberg
 - Showed 4 types of brain wave patterns
-	* Waking 
+	* Waking
 	* Normal Sleep
 	* REM
 	* Deep Sleep
