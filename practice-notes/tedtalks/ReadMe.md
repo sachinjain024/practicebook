@@ -3,6 +3,16 @@ Ted Talks
 
 With every afternoon meal, I watch 1-2 Ted talks to improve myself, learn from others and broaden my perspective for different things. Following is a post session summary I could find in my head or the most impressive things I found during the talk.
 
+## 14) Why Great leaders make you feel safe - Simon Sinek
+- When recession hit in 2008, CEO of a big manufacturing company called a meeting to discuss layoffs. he believed in counting hearts and not counting heads. He said that instead of layoffs, every person from Secreatry to CEO will take unpaid 4 weeks mandatory leave. This increased morale of everyone. Instead of some people suffering a lot, let more people suffer a little. And people coordinated among themselves who could afford 5 week, compensated for people who wanted to take only 3 weeks. This saved the company 20 Million dollars.
+- Captain of navy eat last and once food was over and he did not eat. When he reached the board, navy persons bring their own food for him.
+- A great leader is like a great parent. We give our kid every opportunity to grow, fail, learn and try to make up for his mistakes.
+- Another tech company in New York, their CEO said every employee is a permanent member and they won't be fired for performance issues. If you have issues with performance, we will give you coaching just like what we do with out kids. When they do not perform well, we try to help them instead of firing them.
+- People love SouthWest Airlines because their employees do not fear their leaders and hence they love their job, they love the organization
+- An organization is a place where people tend to share, collaborate, help each other.
+- Once a sergent in Afghanistan saved his soldier's life and kissed his forehead and when speaker asked military persons why they did that? The anser is same - "Because they would do it for me".
+- A great leader do not let his people suffer even if his numbers would have to suffer
+
 ## 13) Your elusive creative genius - Elizabeth Gilbert
 - Author of "Eat, Pray & love"
 - Ancient Greeks and Romans felt that there is some external power which gives creativity. Greeks used to call is daemons and Romans used to call it genius.
