@@ -3,6 +3,15 @@ Ted Talks
 
 With every afternoon meal, I watch 1-2 Ted talks to improve myself, learn from others and broaden my perspective for different things. Following is a post session summary I could find in my head or the most impressive things I found during the talk.
 
+## 15) How to find wonderful Ideas - Ok Go Band
+- Ok Band is together since 1998 and is known for creating innovative videos
+- If you are keen observant, ideas will find you
+- When we get an idea, we make a plan, a great plan, do cost analysis but in the end could not implement it
+- With every awesome idea, there are numerous moving parts 
+- In one of this videos, he showed a video with 130 moving parts / pieces
+- If the probability of each moving part to work right is 90%, then probability of your entire system would work is 1 in a million. If prob(moving part) is 99% then system function working prob is 27%.
+- Speaker suggested that before implementation, we should identify moving parts and experiement with them in sandbox and then we know what happens when a part is tilted or modified a little.
+
 ## 14) Why Great leaders make you feel safe - Simon Sinek
 - When recession hit in 2008, CEO of a big manufacturing company called a meeting to discuss layoffs. he believed in counting hearts and not counting heads. He said that instead of layoffs, every person from Secreatry to CEO will take unpaid 4 weeks mandatory leave. This increased morale of everyone. Instead of some people suffering a lot, let more people suffer a little. And people coordinated among themselves who could afford 5 week, compensated for people who wanted to take only 3 weeks. This saved the company 20 Million dollars.
 - Captain of navy eat last and once food was over and he did not eat. When he reached the board, navy persons bring their own food for him.
