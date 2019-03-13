@@ -1,7 +1,90 @@
 Ted Talks
 ---------
 
-With every afternoon meal, I watch 1-2 Ted talks to improve myself, learn from others and broaden my perspective for different things. Following is a post session summary I could find in my head or the most impressive things I found during the talk.
+With every afternoon meal, I watch a Ted talk to improve myself, learn from others and broaden my perspective for different things. Following is a post session summary I could remember. The choice of the Talk is completely random.
+Please refrain yourself from making anything out of this summary (or better this place). 
+
+**Read at your own risk**
+
+## 2019.03.07 (20) Why I love a country that once betrayed me - George Takei
+- Speaker being a japanese american had to go to prison after Japan bombed Pearl harbour during World War 1
+- Prison was in very isolated place somewhere in Arkansas
+- Japanese americans were called "non-alient" which means citizen in negative
+- Children are amazingly adaptable and he as a kid quickly adapted to the situations in prison
+- After an year of imprisonment and when world war ended, they were released to go wherever they want in America
+- When the family went to Los Angeles, it was not very welcoming. There were drunkyards, smell of urine everywhere
+- Their homes were taken and they had to start everything again
+- Speaker read history and civics books to learn more about the imprisonment
+- His father helped him learn the democracy - It is about the people. It can as good as good people in goveranance and can be as fallible as the bad guys. Democracy means governance by people.
+- After the bombing of pearl harbour, young americans (including japanese americans) voluteered to fight for their country but instead japanese americans were sent to imprisonment
+- When there was a shortage of man power in war, japanese american were asked to join and they did join to take their families out of prison and for their own country
+- During a battle with Germany, they did not expect an attack from the opposite of a hill which was 1000 ft high and Americans were losing so the 442nd Unit (containing japanese americans) decided to hike the hill and attack from the back to surprise the germans
+- Some did die due to slipping hand/foot but in silence to keep their plan intact
+- They hiked for 8 hours and with the first light they attacked and won in 32 minutes
+- When they came back, the president said "You did not win only a war but prejudice"
+
+## 19) How to teach kids to talk about taboo topics - Liz Kleinrock
+- Speaker is a classroom teacher of 4th grade students
+- Once a kid asked - What is racism
+- Another kid volunteered and answered white skin people do not respect dark skin people because the colour of their skin matches the color of poop
+- Half of the class burst into laughter while the other half started making comments how can she say something like this. This is offensive.
+ - Teacher had two options
+ 	* Fight: Scold the kid who answered and suppress her voice
+ 	* Flight: Change the subject
+ - Both the options were bad for one or the other
+ 	* Fight is bad for Abby because she did not know what wrong she said and she will not gather courage to say something she knew next time
+ 	* Flight is bad for half of the class who laughed listeneing to word poop and may associate this in their later period of life
+ - So, Instead she choose to explain the topic and the whole classes expressed interest in understanding it and why it is wrong
+ - We should develop an ecosystem where kids should be free to make mistakes, learn from them and can communicate with each other about different things
+ - We as adults should not be embarassed about not knowing something. If they ask something you don't know admit it and respond later
+
+## 18) The meaning of work - Roy Bahat
+- Startup Invester in AI field
+- People with less than 150K salary said about the work
+	* Dignity
+	* Stability
+- We always needed one another in our work
+- Future is already here. When ATM machines were installed, essentially it has replaced jobs for cash dispensers in banks but it has also created jobs in other domains
+- Some people who work but are not get paid like caretakers, parents, housewives. They also deserve dignity.
+- We need to stop associating dignity with paid jobs.
+- Even 100 years from now in work we will need collaboration with others
+- For some truck drivers, they have dignity because they are the ones bringing fruits, vegetables, newspapers to everyone in the city
+
+## 17) Saving for tomorrow, tomorrow - Shlomo Benartzi
+- An average american spends approx 1000 dollars every year on lotteries
+- Primarily low income people spend more on lotteries than high salaried guys
+- People always choose to spend now vs save for later. Immediate gratification wins
+- People buy house more than they can afford and couldn't pay mortgages and blame banks
+- About 0.5% of americans save too much in 401K scheme
+- Less than 30% of americans save in 401K scheme
+	* Rest of them either don't decide to or couldn't affort to save
+- Organ Donation Example
+	* In Germany people can select to donate organs when they fill DL and other forms. About 12% do
+	* In Austria, people can select NOT to donate organs and about 1% do.
+	* This means, Germany has ~12% donors while Austria has ~99% donors
+	* This shows, the result of doing nothing. Procastination
+- Banana vs Chocolate experiment
+	* Given a choice of banana vs chocolate in an event next week, studies showed that 74% people preferred bananas but actually in the event 25-30% actually ate bananas. More people went with chocolate because of immediate gratification
+- Money Apple Experiment
+	* A group of monkeys is given an apple and they were really happy
+	* Another group of monkeys is given two apples and one is taken away and they become really mad why the second one was taken away
+	* Similarly, when we have received money it is difficult for us to avoid this and go to savings
+	* Another challenge, notion of loss aversion. Somehow we feel that saving is some kind of loss for us
+- Speaker and his friend (Richard Thaler) combined all these studies and results and created a scheme for financial planning
+- They created Retirement Pension Plan according to which 3% additional amount will go to employee's savings whenever they get a pay raise.
+- This inceased the amount of savings and people starting to save more.
+- Lots of companies have adopted this scheme.
+
+## 16) Spend 10 minutes a day doing nothing - Andi Puddicombe, Cofounder of Headspace
+- When did you last time spent 10 minutes doing nothing?
+- A harvard research paper published that we spend 47% of our times just thinking
+- Having an uncalm mind leads to unhappiness and irrational decisions
+- Mind is a precious thing still we do not look after it
+- Doing nothing does not mean not having thoughts but recognizing that it is a thought and let it pass without judgement, without overthinking
+- Too many times, we are just thinking about thinking, become anxious being anxious
+- Meditation is scientifically proved technique still people do not practice it
+- Meditation does not necessarily mean to sit on floor, it simply means to strike a balance between too much focus on a particular thought and no focus on something. In short, simple being present
+- Being present is so underrated
 
 ## 15) How to find wonderful Ideas - Ok Go Band
 - Ok Band is together since 1998 and is known for creating innovative videos
