@@ -6,6 +6,31 @@ Please refrain yourself from making anything out of this summary (or better this
 
 **Read at your own risk**
 
+## 2019.03.27 (22) The Poverty Paradox and why most programs fail - Efosa Ojomo
+- Speaker along with some friends started a mission to end poverty in Africa
+- They raised the money and created well in the poor community. But after sometime, well got broke 
+- He realized that problem is not with them but with the whole idea
+- Stats showed that between 1850s to 1900s America had the worse situation
+- Henry Ford decided to create car for average american and this changed a lot of things
+	* People started to stay at outskirts
+	* Bring vegetables into the city
+	* Roads got developed in the process. Yes he made the cars before there were roads
+	* Generated Jobs for thousands
+- Similarly, there were other inventions which changed the situations
+- Poverty is not due to lack of resources but lack of innovation
+- A small change in perspective: How to increase prosperity? Answer is Innovation
+- Building products which affect life of average people
+- Innovation is simply practical,affordable,easy solutions to everyday problems
+
+## 2019.03.25 (21) How to speak up for yourself - Adam Galinsky
+- How should we decide when to speak up and when to not.
+- There are situations when we think if we speak up, we might bother other person or he may think us stupid
+- Speaker presents a couple of examples in which things went wrong in either situation
+	* Speaker became a new parent and felt his baby is feeling dehyderated but did not reach out to doctor. On the very next day, doctor treated the baby for dehyderation
+	* Speaker's brother works on documentary. When he got a good offer from a company, he advised his brother to negotiate and drafted a nice response but the company felt offended and revoked the offer.
+- Sometimes, when we speak up we get punished and when we do not, we get unnoticed
+- We should learn to take other's perspective, When we take other's perspective, we feel confident
+
 ## 2019.03.07 (20) Why I love a country that once betrayed me - George Takei
 - Speaker being a japanese american had to go to prison after Japan bombed Pearl harbour during World War 1
 - Prison was in very isolated place somewhere in Arkansas
