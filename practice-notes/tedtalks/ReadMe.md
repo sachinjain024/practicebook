@@ -1,10 +1,117 @@
-Ted Talks
----------
+100 Ted Talks Project (1st Jan 2019 - Ongoing)
+---------------------------------------------
 
 With every afternoon meal, I watch a Ted talk to improve myself, learn from others and broaden my perspective for different things. Following is a post session summary I could remember. The choice of the Talk is completely random.
-Please refrain yourself from making anything out of this summary (or better this place). 
+Please refrain yourself from judging, making anything out of this summary (or even this place). 
 
 **Read at your own risk**
+
+## 2019.05.17 (29) Sleep is your superpower - Matt Walker, Sleep Scientist
+- Sleep is mother nature's best effort to prevent mortality
+- We need sleep not only after learning but before learning too
+	* Sleep (Deep Sleep) moves the learning into more stable and secure persistence
+- An experiment was done between two groups - One with full 8 hours of sleep and other with barely 4-5 hours of sleep and the next day both groups were tested based on the learning ability.
+	* Group 1 had 70% better learning than the other group
+- Humans are the only species which keep them deprive of sleep
+- Daylight savings effect
+	* When day light savings take place, sleep gets reduced by 1 hour
+	* It was observed that on the same day in spring there are more than 24% heart attacks
+	* On the opposite that when autumn starts, heart attacks are reduced by 21% with just one more hour of sleep
+- What we should do when we are awake at night and trying to sleep?
+	* Wake up, Go to another room and come back when you are feeling sleepy again
+	* You do not sit at dinner table waiting to be hungry
+	* Brain needs to form the association back that bed is the place to sleep
+- When we sleep, there are immune system cells which kills other unwanted cells in the body
+	* So having a proper sleep increases our immunity system as well
+- When we grow old, we see signs of weak memory, repeating things and also lesser sleep
+	* Sleep is related to aging as well
+- Two tips to improve your sleep
+	* Regularity is the king. Sleep and Wakeup every day at the same time
+	* Make your room temperature 2-3 degrees cooler to trigger sleep
+
+## 2019.05.15 (28) Why we ignore obvious problems - Michele Wucker
+- Why do we often include big problems like financial crisis and climate change
+- Before 2008 US Financial crisis, there was a guy whose job was just to watch for financial crisis but he could not predict
+- After postmortem, conclusion was no one could predict the crisis
+- Speaker sold her house in manhattan when it's price went double in 4 years
+- Speaker coined the term "Gray Rhino" for any major problem
+- She mentioned that she spent a lot of time in China and there is a difference in how WSJ, Washingon braodcast economic/financial news to citizens unlike China
+- Both countries have different types of govt but have similar set of problems like inequality etc
+- WSJ shows things as more smooth while China from journalists to President highlights the different crisis accurately
+- Chinese Individuals are more likely to take good risks because they have (or believe) cushion from govt if things go wrong while in US, you have to go/do it alone
+- Even if the problem is major like Climate change and an individual cannot solve it alone, attitude matters. You do your bit and the world follows.
+
+## 2019.05.01 (27) How Twitter Needs to Change, Conv b/w Ted Staff (Chris Anderson, 1 more) and Jack Dorsey
+- Gist of the conversation is how and what Twitter is doing to ensure healthy conversaion on Twitter. how does twitter handle harassments, racism comments etc
+- JD says they are working to create a healthy conversation on Twitter
+- Twitter is the best network to follow your interests. People can simply follow the hashtags or their interest groups or communities instead of picking people one by one. This is fundamental shift and hard to do.
+- If he starts over, he may not interoduce like and follow button
+- Initially, Follower Count was bold and strong and people on twitter tend to maximize these numbers and sometimes say outragious things etc.
+- One year back, every comment which was reported was reviewed manually before taking it off
+- Twitter invested heavily on machine learning and deep learning to scan the hate comments and move the comments to top to be reviewed manually
+- Did partner with some lab in MIT to determine the initial factors of health of conversation
+- Contd..
+
+## 2019.04.25 (26) Nature is everywhere, We need to learn to see it - Emma Marris
+- The whole point of talk was: How do we define nature?
+- National Parks are heavily managed
+- It takes a lot of cost and effort to make national parks look untouched
+- Special efforts are done to protect endangered species
+- Children do not enjoy national parks because there are so many restrictions
+- When a survey was done with young people about going outdoors atleast once a week
+	* 3 out of 5 stay inside
+	* Most popular reason (61 percent) was that there was no natural place near their home to go
+	* In US there is atleast one open park within 10 minutes of walking distance
+- If we do not let our kids touch nature, play with them, make forts, they won't have any attachment to nature
+- Nature is where multiple species thrive, grow after all humans are also a part of nature
+- If we do not appreciate small areas outside our homes, small parks etc which is part of nature, we will lose them too
+- Every environmentalist speaker knows had build a fort in their childhood so it is important that our kids build forts and touch the nature
+
+## 2019.04.09 (25) What your breath could reveal about your health - Julian Burschka
+- There are common diseases for deaths even in high income economies
+- This is because the symptoms of diseases occur at much later stage and this is when treatment starts
+- Our Breath consists of
+	* Oxygen, Nitrogen, Carbon Dioxide, Argon, and other Compounds in very small percentage
+- Alcohol detecter machines detects the presence of ethanol in the breath. I used to think that this machine works by checking the amount of power person can generate in blow of air. Ha :-)
+- If we can detect the diseases using Breath Analysis, it would lead to proactive detection and treatment rather than reactive detection and treatment
+- Such a solution would be
+	* Simple 
+	* Portable
+	* Cheap, Accessible to All
+	* Not affecting to health
+- Challenges
+	* Take Sampling of the breath particles
+	* Insufficient data
+	* Highly accurate sensors
+
+## 2019.04.08 (24) How not to be ignorant about the world - Hans & Ola Rosling
+- Speaker talks about how much we are ignorant about the world. Starts with 3 questions
+	1. Number of deaths [doubled/halved/same] since 1900?
+	2. Average years women have spent at school at 30 years (Men spent 8 years) [3/5/7]
+	3. Number of people moved poverty since 1980 [Halved/Same/Doubled]
+- Swedish people had the most negative sentiment
+- The Ignorance Project, Gapminder foundation
+- Base case is 33% and considered as chimp's choice (random choice)
+- Answers are
+	1. More than halved. We are living in much more stable world right now
+	2. Avg years is more than 7 so they are fast catching up
+	3. Num of people in poverty has reduced a lot (More than half again)
+- Problems for the negative sentiments
+	* Biases
+	* Teachers teach the outdated content to the kids
+	* News
+- There are 4 ways to improve the positivity (like rules of thumb)
+	* Instead of thinking everything is getting worse, start thinking everything is getting improved
+	* Instead of fearing from Dangers like Sharks/Terrorists which become a major highlights of news, think they does not affect you. They rarely kill very few people than other reasons like accident, alchohol etc
+
+## 2019.04.05 (23) How Boredom can lead to creativity - Manoush Zomorodi
+- Speaker was a journalist before motherhood and she started to use iPhone which was released at the same time to stay connected to friends or do multiple things
+- She realized she is not bored anymore. Whenever she is sitting idle on couch, she will update the google doc, check email account etc. (Getting Shit Done)
+- She talked to neuroscientists and brain researchers and found that when we do multitask we are doing more tasks. For every context switch, our brain has to do some extra work.
+- She started a project - Boredom and Brilliance. A lot of people signed up for the 1-week challenges
+- At the end of the challenge, on an average 6 minutes of screen time was reduced
+- She went to the neuroscientists feeling low and they appreciated that in a short span of time, she could achieved this because changing people's behaviour is hard.
+- An average person spends 2 years on facebook
 
 ## 2019.03.27 (22) The Poverty Paradox and why most programs fail - Efosa Ojomo
 - Speaker along with some friends started a mission to end poverty in Africa
