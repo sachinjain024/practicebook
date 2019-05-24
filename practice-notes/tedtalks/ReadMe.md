@@ -6,6 +6,34 @@ Please refrain yourself from judging, making anything out of this summary (or ev
 
 **Read at your own risk**
 
+## 2019.05.24 (31) Build Tower, Build Team - Tom Wujec
+- Speaker gave marshmallow experiment to the team using sphagetti, tape and put marshmallow on the top
+- Kids built taller structure than business graduates
+	* Business graduates put a lot of time in planning and putting out the best structure and when the first structure fell there was no time to rebuild it
+	* Kids built the structure quickly, learnt fromt he fall, iterated on it quickly and created another
+	* Engineers and Architects did the best because they understand triangles and geometrical shapes
+	* CEOs did above average (20 inches)
+	* CEOs with executive did better than just CEOs
+- In another experiment, speaker added 10K worth software as prize money and the performance dropped drastically and there was not a single structure produced
+- He performed the same experiement with same group after 4 months and the results were dramatic. Groups did really well.
+	* HighStakes + Low Skills = Low Success
+	* HighStakes + High Skills = Good Success
+- This also taught the importance of prototyping in any industry
+- Marshmallow Challenge website 
+
+## 2019.05.24 (30) Helping others make you happy but depends how you do it - Elizabeth Dunn
+- Speaker's research was in this area but she hardly contributed to charity
+- One day, she heard the news about Syria refugees and she wanted to help So she took out her credit card and filled all the details but she didnot feel any emotion about giving and making her happy
+- Canada offered a program `Group of five` in which you can form a group of five and fly a family from Syria and fund for the next 1 year
+- She participated in that with an organization and formed group of 25.
+- She and her friends made all the arrangements and waited eagerly for the family at airport. It was a happy moment
+- Another Incident, there was a restaurant which has a program that any organization can fund a dinner for homeless
+- It gave an opportunity to the volunteers to sit and talk with the homeless people
+- Some of the volunteers who changed their route earlier to avoid the area now started taking the route to say Hi to the familiar faces
+- She found that when people donate to UNICEF (very big org) there is almost no change in people's emotions/happiness but when people donate to spreadthenet (org which donates net to avoid malaria) people really found happiness in giving
+- It is really important to understand how your money is spent and what impact it created to give you happiness/pleasure
+- If you are in charity, do not give back pens/calendars to the contributors intead give them the opportunity to find happiness
+
 ## 2019.05.17 (29) Sleep is your superpower - Matt Walker, Sleep Scientist
 - Sleep is mother nature's best effort to prevent mortality
 - We need sleep not only after learning but before learning too
