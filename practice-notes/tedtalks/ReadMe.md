@@ -6,6 +6,28 @@ Please refrain yourself from judging, making anything out of this summary (or ev
 
 **Read at your own risk**
 
+## 2019.06.19 (32) The healing power of reading - Michelle Kuo
+- Speaker is Asian American and went to Mississippi to be a part of change in terms of right of education to African americans and right to vote etc.
+- There were very few resources for people living there
+- She found Patrick and she made a mission to bring him to school
+- Patrick didn't like going to school because there were always fights and his mother couldn't afford money
+- Patrick did not like to fight and was always in some deep thoughts
+- Patrick started going to school after speaker knoched his door everyday
+- Patrick improved a lot as a student
+- Then, She thought she could help more if she has a professional law degree
+- Many people leave the area who can and the only one living there were the ones who cannot afford to leave
+- She went to Harvard to get a law degree
+- Next year, a friend called her and told Patrick has killed someone and he is in jail
+- She flew to meet him and Patrick said that it is true and he doesn't want to talk about it. He also said that he has a new born daughter. 
+- She started visiting him daily and gave him a piece of paper to write down something for his daughter.
+- She also gave him a book everyday to read and sometimes both of them read books for hours.
+- Patrick started to write more to his daughter
+- Speaker emphasizes the inequality we have in society
+- Patrick didn't do very well after coming out because no employers gave him job because of track record
+- His mother got expired at 43 due to illness and he was starving
+- Reading didn't help him in not starving or saving his mother or getting him a job but reading helped him heal his inner-self.
+- Reading helpmed him live in a world of imaginations where he was present with his daughter
+
 ## 2019.05.24 (31) Build Tower, Build Team - Tom Wujec
 - Speaker gave marshmallow experiment to the team using sphagetti, tape and put marshmallow on the top
 - Kids built taller structure than business graduates

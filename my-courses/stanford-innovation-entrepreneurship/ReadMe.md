@@ -36,3 +36,5 @@ Introduction to Innovation and Entrepreneurship - Free Course by Stanford Univer
  	* Then a plate with 5 cookies were brought in the room. Usually, people are hesitant to take up the last cookieSo it was interesting to see who takes the 4th cookie. 
  	* It was found that in power student not only took the 4th cookie but also the last one and he also ate with mouth open and leaving more crumbs.
  	* An example of power poisoning - Focus on yourself, less on others, break the rules.
+
+ - Quiz: https://greatergood.berkeley.edu/quizzes/ei_quiz/take_quiz
