@@ -6,6 +6,38 @@ Please refrain yourself from judging, making anything out of this summary (or ev
 
 **Read at your own risk**
 
+## 2019.07.12 (33) Why our screens make us less happy - Adam Alter
+- While promoting a product dog's food, a person goes to some session and eats the dog food live
+	* He then claims if the food is good enough for me, it is good enough for my pets too
+	* This is called DogFooding
+	* Very common in businesses where you consume your own product and certify that it is good enough for others too
+	* Not popular in Screen based tech
+- When Steve Jobs released iPad, he said it has the best experience, better than laptop
+	* After a couple of years a journalist asked him do your kids love ipad, he said my kids haven't used ipad.
+	* We limit the technology to be used by our kids.
+- A School in New York has 75% kids having parents in high tech sector in silicon valley, doesn't introduce screen to kids until 8th grade
+- While the screens have helped us connect to the world and has many advantages, it takes up your me time too.
+- Here's some data collected by Speaker:
+	
+	Year 			SleepTime 	WorkTime+Commute 	Survival (Eat,Bath,Kids) 	Personal Space (Hobby)
+	2007 (IPhone)	7.5-8h 		8-9h 				2-3h						Screens (10%) + Remaining
+	2015			7-8h		8-9h				2-3h						Screens (30%) + Remaining
+	2017 			7-7.5h 		Roughly same 		Roughly Same 				Screens (80%) + Remaining
+
+- There are some apps which help us feel good
+	* Weather, Meditation, Health, Reading, Educational: Avg 9m/day
+	* Dating, News, Social Media: Avg 27m/day					
+- Moreover, There are stopping cues which make us feel to do something different now.
+	* End of Newspaper
+	* End of a webshow - You have to wait for another week
+	* But there are apps like NewsFeed, Social Media, Web Browsing where feed keeps on rolling
+- Suggestions
+	* Do not use phone while at dinner table
+	* Do not use phone and attach them to certain activities
+- It is like coming out of a drug addiction. Initially it will be hard but eventually you will feel good
+- A dutch design firm has an office where desks are lifted to ceiling at 6PM and their office converts to yoga sessions 3-4 days/weel
+- In a German company, when you are on vacation if someone emails you he gets an autoreply that this person is on vacation and your email has been deleted. Please reach out a coworker or reach out after X days. This way a person is actually ona break.
+
 ## 2019.06.19 (32) The healing power of reading - Michelle Kuo
 - Speaker is Asian American and went to Mississippi to be a part of change in terms of right of education to African americans and right to vote etc.
 - There were very few resources for people living there
