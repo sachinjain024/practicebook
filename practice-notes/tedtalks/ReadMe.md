@@ -6,6 +6,27 @@ Please refrain yourself from judging, making anything out of this summary (or ev
 
 **Read at your own risk**
 
+## 2019.07.22 (34) How to measure your adaptability - Natalie Fratto, Startup Invester
+- https://www.ted.com/talks/natalie_fratto_3_ways_to_measure_your_adaptability_and_how_to_improve_it
+- When investing, speaker tests for AQ - Adapatability Quotient. She asks 3 questions
+	* What If Questions
+		- Interviews focus on the past e.g. What was the Time when you made any blunder in past and how did you handle that?
+		- What if questions force your brain to think about the futuristic situations and your ability to deal with them
+	* Unlearning
+		- World is moving very fast, in terms of technology, geopolitics etc
+		- Most of the times, we have to unlearn to make space for learning new things
+		- Dustin learned riding bike with opposite handle (moving handle left moves bike right) in 8 months
+		- He showed that we can unlearn and everyone has different capacity to unlearn
+		- Mahatma Gandhi said in his autobiography - I have to go to zero many times in life
+	* Exploration over Exploitation
+		- CEO of blockbuster declined offer from CEO of Netflix about improving his business, he was too focussed on exploiting from already built business and customers
+		- Company went bankrupt in 2010 while Netflix made 15B in 2018
+		- Founders should have a knack of exploring what can kill their business
+- Other Investers look for 
+	* EQ: Emotion Quotient
+		- How well this guy create good teams, manage teams etc?
+- In short, using these tools we can measure our adaptability and improve it
+
 ## 2019.07.12 (33) Why our screens make us less happy - Adam Alter
 - While promoting a product dog's food, a person goes to some session and eats the dog food live
 	* He then claims if the food is good enough for me, it is good enough for my pets too
