@@ -6,6 +6,24 @@ Please refrain yourself from judging, making anything out of this summary (or ev
 
 **Read at your own risk**
 
+## 2019.07.24 (35) Change your breath, Change your life - lucas rockwood
+- Different breathing exercises can help you with lower your heart rate, control nervous system and get more balance in your life
+- Water breathing
+	* Count to 4 inhale and exhale with count of 4
+	* Can be done anytime
+	* Very helpful in controlling the nervous system
+	* Do in sets of 10
+- Whisky breathing
+	* Count to 4 inhale and exhale with count of 8
+	* Used for getting to sleep
+	* Relaxes the nervous system
+	* Should be done sporadically
+- Coffee breathing
+	* Pranayam
+	* Just exhale like sneezing
+	* In the morning, before the exercise before the sugar snacks
+	* Do in sets of 20, 3 times in one sitting
+
 ## 2019.07.22 (34) How to measure your adaptability - Natalie Fratto, Startup Invester
 - https://www.ted.com/talks/natalie_fratto_3_ways_to_measure_your_adaptability_and_how_to_improve_it
 - When investing, speaker tests for AQ - Adapatability Quotient. She asks 3 questions
