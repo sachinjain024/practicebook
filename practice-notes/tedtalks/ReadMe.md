@@ -6,6 +6,23 @@ Please refrain yourself from judging, making anything out of this summary (or ev
 
 **Read at your own risk**
 
+## 2020.05.06 (36) Why should you think about Financial Independence
+- https://www.youtube.com/watch?v=XSHNDyinZSQ
+- Book: 4 hour work week
+- How can you FIRE (Financially Independent Retire Early)
+	* Start saving early
+	* Minimize expenses
+	* Start Investing into assets
+	* Eventually you reach a break even point where you get revenue from assets what you need
+	* It could be in years but you will reach there
+- We get to choose when to work, how to work, with whom to work
+- Work should be a choice
+- Speaker got 5 week illness which was an eye opener for her and she started taking mini-retirements
+- Humanity needs creative brains to solve problems for pollution, over-population, food, adulteration etc
+- If everyone gets occupied too much in work, who will solve these problems
+- When we reach FIRE, it doesn't mean we don't have to work but then work becomes a choice
+- When we retire we are time rich but we get old. Speaker says how about shifting the retirement period to the left and in multiple chunks
+
 ## 2019.07.24 (35) Change your breath, Change your life - lucas rockwood
 - Different breathing exercises can help you with lower your heart rate, control nervous system and get more balance in your life
 - Water breathing
