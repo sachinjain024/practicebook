@@ -53,7 +53,10 @@
                 {
                   "html": "./src/index.html",
                   "js": "./src/renderer.js",
-                  "name": "main_window"
+                  "name": "main_window",
+                  "preload": {
+                    "js": "./src/preload.js"
+                  }
                 }
               ]
             }
@@ -76,6 +79,8 @@
     "style-loader": "^1.2.1"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "express": "^4.17.1",
+    "http-server": "^0.12.3"
   }
 }

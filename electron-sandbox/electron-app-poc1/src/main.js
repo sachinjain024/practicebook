@@ -11,13 +11,26 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    show: false,
+    webPreferences: {
+      preload: MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY,
+      nodeIntegration: false
+    }
   });
 
   // and load the index.html of the app.
-  mainWindow.loadURL(MAIN_WINDOW_WEBPACK_ENTRY);
+  // mainWindow.loadURL(MAIN_WINDOW_WEBPACK_ENTRY);
+  mainWindow.loadURL('http://localhost:8080');
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools();
+
+  mainWindow.once('ready-to-show', () => {
+    mainWindow.show();
+    mainWindow.webContents.send('intercepted', {
+      'url': 'https://google.com'
+    });
+  });
 };
 
 // This method will be called when Electron has finished
