@@ -80,6 +80,7 @@
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",
+    "electron-store": "^7.0.1",
     "express": "^4.17.1",
     "http-server": "^0.12.3"
   }

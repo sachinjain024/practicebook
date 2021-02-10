@@ -1,5 +1,8 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
+
+const Store = require('electron-store');
+const store = new Store({ watch: true });
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require('electron-squirrel-startup')) { // eslint-disable-line global-require
@@ -8,30 +11,50 @@ if (require('electron-squirrel-startup')) { // eslint-disable-line global-requir
 
 const createWindow = () => {
   // Create the browser window.
-  const mainWindow = new BrowserWindow({
+  const browserWindow = new BrowserWindow({
     width: 800,
     height: 600,
     show: false,
     webPreferences: {
       preload: MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY,
-      nodeIntegration: false
+      nodeIntegration: false,
+      contextIsolation: false
     }
   });
 
   // and load the index.html of the app.
   // mainWindow.loadURL(MAIN_WINDOW_WEBPACK_ENTRY);
-  mainWindow.loadURL('http://localhost:8080');
+  browserWindow.loadURL('http://localhost:8080');
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools();
+  browserWindow.webContents.openDevTools();
 
-  mainWindow.once('ready-to-show', () => {
-    mainWindow.show();
-    mainWindow.webContents.send('intercepted', {
-      'url': 'https://google.com'
+  browserWindow.once('ready-to-show', () => {
+    browserWindow.show();
+    browserWindow.webContents.send('test-event', {
+      'foo': 'bar'
     });
+
+    // console.log('Setting up onDidAnyChange listener');
+    // store.onDidAnyChange(function(newValue, oldValue) {
+    //   console.log('newValue:', newValue);
+    //   console.log('oldValue:', oldValue);
+    // });
+
+    // console.log('Setting up onDidChange listener');
+    // store.onDidChange('a', function(newValue, oldValue) {
+    //   console.log('newValue:', newValue);
+    //   console.log('oldValue:', oldValue);
+    // });
+
+    // store.set({a: 10});
   });
 };
+
+ipcMain.on('datastore:changed', (event, arg) => {
+  let newData = store.store;
+  console.log('DataStore:', newData);
+});
 
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
