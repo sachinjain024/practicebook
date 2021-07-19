@@ -24,8 +24,11 @@ def load_flask_json(f):
     return flask_json.load(f)
 
 
-file_name = 'f_search_response.json'
+# file_name = 'f_search_response.json'
+# file_name = 'g_search_response.json'
+file_name = 'do_search_response.json'
 
+print("Performance Testing with file {file_name}".format(file_name=file_name))
 print("json:")
 print(timeit.Timer('load_json(open(file_name))', 'from __main__ import load_json,file_name').timeit(10000))
 
