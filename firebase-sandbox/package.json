@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "http-server": "^0.11.1"
+    "http-server": "^14.1.1"
   },
   "scripts": {
     "start": "./node_modules/.bin/http-server src"
