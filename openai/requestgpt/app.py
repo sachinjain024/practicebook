@@ -1,5 +1,6 @@
-from gpt_index import SimpleDirectoryReader, GPTListIndex, GPTSimpleVectorIndex, LLMPredictor, PromptHelper
+from gpt_index import SimpleDirectoryReader, GPTListIndex, LLMPredictor, PromptHelper
 from langchain.chat_models import ChatOpenAI
+from llama_index import download_loader, GPTSimpleVectorIndex
 import gradio as gr
 import sys
 import os
@@ -7,19 +8,25 @@ import os
 os.environ["OPENAI_API_KEY"] = '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'
 
 def construct_index(directory_path):
-    max_input_size = 4096
-    num_outputs = 512
-    max_chunk_overlap = 20
-    chunk_size_limit = 600
+    # max_input_size = 4096
+    # num_outputs = 512
+    # max_chunk_overlap = 20
+    # chunk_size_limit = 600
 
-    prompt_helper = PromptHelper(max_input_size, num_outputs, max_chunk_overlap, chunk_size_limit=chunk_size_limit)
+    # prompt_helper = PromptHelper(max_input_size, num_outputs, max_chunk_overlap, chunk_size_limit=chunk_size_limit)
+    # llm_predictor = LLMPredictor(llm=ChatOpenAI(temperature=0.7, model_name="gpt-3.5-turbo", max_tokens=num_outputs))
 
-    llm_predictor = LLMPredictor(llm=ChatOpenAI(temperature=0.7, model_name="gpt-3.5-turbo", max_tokens=num_outputs))
+    # documents = SimpleDirectoryReader(directory_path).load_data()
+    BeautifulSoupWebReader = download_loader("BeautifulSoupWebReader")
+    loader = BeautifulSoupWebReader()
+    documents = loader.load_data(
+        urls=[
+            'https://docs.requestly.io/browser-extension/chrome/http-modifications/response-rule'
+        ]
+    )
 
-    documents = SimpleDirectoryReader(directory_path).load_data()
-
-    index = GPTSimpleVectorIndex(documents, llm_predictor=llm_predictor, prompt_helper=prompt_helper)
-
+    # index = GPTSimpleVectorIndex(documents, llm_predictor=llm_predictor, prompt_helper=prompt_helper)
+    index = GPTSimpleVectorIndex.from_documents(documents)
     index.save_to_disk('index.json')
 
     return index
