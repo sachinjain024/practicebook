@@ -7,6 +7,46 @@ import os
 
 os.environ["OPENAI_API_KEY"] = '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'
 
+def get_all_documentation_links():
+    sitemap_xml = 'https://docs.requestly.io/sitemap.xml'
+
+    ###
+    # Write code here that fetches the sitemap and creates a list of unique URLs
+    # For now hardcoding the list of URLs
+    ###
+
+    return [
+        'https://docs.requestly.io/browser-extension/chrome/http-modifications/overview',
+        'https://docs.requestly.io/browser-extension/chrome/http-modifications/redirect-rule',
+        'https://docs.requestly.io/browser-extension/chrome/http-modifications/replace-rule',
+        'https://docs.requestly.io/browser-extension/chrome/http-modifications/headers-rule',
+        'https://docs.requestly.io/browser-extension/chrome/http-modifications/request-body-rule',
+        'https://docs.requestly.io/browser-extension/chrome/http-modifications/response-rule',
+        'https://docs.requestly.io/browser-extension/chrome/http-modifications/query-params-rule',
+        'https://docs.requestly.io/browser-extension/chrome/http-modifications/cookies-rule',
+        'https://docs.requestly.io/browser-extension/chrome/http-modifications/script-rule',
+        'https://docs.requestly.io/browser-extension/chrome/http-modifications/user-agent-rule',
+        'https://docs.requestly.io/browser-extension/chrome/http-modifications/delay-rule',
+        'https://docs.requestly.io/browser-extension/chrome/http-modifications/cancel-rule'
+    ]
+
+def get_all_github_issues_links():
+    url_format = "https://github.com/requestly/requestly/issues/{}"
+    n_urls = 300 # number of URLs to generate
+    urls = []
+
+    for i in range(100,n_urls):
+        url = url_format.format(i)
+        urls.append(url)
+
+    return urls
+
+def get_all_links():
+    docs_links = get_all_documentation_links()
+    github_issues_links = get_all_github_issues_links()
+
+    return docs_links + github_issues_links
+
 def construct_index(directory_path):
     # max_input_size = 4096
     # num_outputs = 512
@@ -16,13 +56,10 @@ def construct_index(directory_path):
     # prompt_helper = PromptHelper(max_input_size, num_outputs, max_chunk_overlap, chunk_size_limit=chunk_size_limit)
     # llm_predictor = LLMPredictor(llm=ChatOpenAI(temperature=0.7, model_name="gpt-3.5-turbo", max_tokens=num_outputs))
 
-    # documents = SimpleDirectoryReader(directory_path).load_data()
     BeautifulSoupWebReader = download_loader("BeautifulSoupWebReader")
     loader = BeautifulSoupWebReader()
     documents = loader.load_data(
-        urls=[
-            'https://docs.requestly.io/browser-extension/chrome/http-modifications/response-rule'
-        ]
+        urls=get_all_links()
     )
 
     # index = GPTSimpleVectorIndex(documents, llm_predictor=llm_predictor, prompt_helper=prompt_helper)
