@@ -5,8 +5,6 @@ import gradio as gr
 import sys
 import os
 
-os.environ["OPENAI_API_KEY"] = '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'
-
 def get_all_documentation_links():
     sitemap_xml = 'https://docs.requestly.io/sitemap.xml'
 
